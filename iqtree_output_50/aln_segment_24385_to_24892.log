@@ -1,0 +1,84 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    SUN1029323 (SSE4.2, 36 GB RAM)
+Command: iqtree2 -s iqtree_output_50/aln_segment_24385_to_24892.fasta -m GTR -nt AUTO -fast -pre iqtree_output_50/aln_segment_24385_to_24892
+Seed:    378875 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct 29 15:16:35 2025
+Kernel:  SSE2 - auto-detect threads (14 CPU cores detected)
+
+Reading alignment file iqtree_output_50/aln_segment_24385_to_24892.fasta ... Fasta format detected
+Reading fasta file: done in 0.000583172 secs using 86.94% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 104 sequences with 508 columns, 106 distinct patterns
+68 parsimony-informative, 55 singleton sites, 385 constant sites
+Analyzing sequences: done in 5.10216e-05 secs using 76.44% CPU
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+NOTE: 59 identical sequences (see below) will be ignored for subsequent analysis
+Alignment was printed to iqtree_output_50/aln_segment_24385_to_24892.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to iqtree_output_50/aln_segment_24385_to_24892.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.00 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 14 CPU cores
+Increase to 10 rounds for branch lengths
+8192 trees examined
+Threads: 1 / Time: 14.00 sec / Speedup: 1.00 / Efficiency: 100% / LogL: -5342
+Threads: 2 / Time: 69.85 sec / Speedup: 0.20 / Efficiency: 10% / LogL: -5342
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.50)
+1. Initial log-likelihood: -1655.42
+2. Current log-likelihood: -1611.64
+Optimal log-likelihood: -1611.62
+Rate parameters:  A-C: 1.99518  A-G: 5.42712  A-T: 0.18270  C-G: 3.12342  C-T: 7.80703  G-T: 1.00000
+Base frequencies:  A: 0.154  C: 0.370  G: 0.293  T: 0.183
+Parameters optimization took 2 rounds (0.005 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00142908 secs using 99.36% CPU
+Computing ML distances took 0.001469 sec (of wall-clock time) 0.001444 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 4.3869e-05 secs using 77.5% CPU
+Computing RapidNJ tree took 0.000145 sec (of wall-clock time) 0.000121 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -1638.903
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -1610.405
+Finish initializing candidate tree set (4)
+Current best tree score: -1610.405 / CPU time: 0.011
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:1m:23s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -1610.405
+Optimal log-likelihood: -1610.405
+Rate parameters:  A-C: 1.90167  A-G: 5.32784  A-T: 0.18450  C-G: 3.14299  C-T: 7.90209  G-T: 1.00000
+Base frequencies:  A: 0.154  C: 0.370  G: 0.293  T: 0.183
+Parameters optimization took 1 rounds (0.001 sec)
+BEST SCORE FOUND : -1610.405
+Total tree length: 0.381
+
+Total number of iterations: 2
+CPU time used for tree search: 0.011 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.012 sec (0h:0m:0s)
+Total CPU time used: 46.324 sec (0h:0m:46s)
+Total wall-clock time used: 83.880 sec (0h:1m:23s)
+
+Analysis results written to: 
+  IQ-TREE report:                iqtree_output_50/aln_segment_24385_to_24892.iqtree
+  Maximum-likelihood tree:       iqtree_output_50/aln_segment_24385_to_24892.treefile
+  Likelihood distances:          iqtree_output_50/aln_segment_24385_to_24892.mldist
+  Screen log file:               iqtree_output_50/aln_segment_24385_to_24892.log
+
+Date and Time: Wed Oct 29 15:17:59 2025

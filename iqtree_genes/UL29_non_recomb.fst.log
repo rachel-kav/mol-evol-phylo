@@ -1,0 +1,91 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    SUN1029323 (SSE4.2, 36 GB RAM)
+Command: iqtree2 -s alignments/UL29_non_recomb.fst -m GTR+FO+R4 --prefix iqtree_genes/UL29_non_recomb.fst -fast -nt AUTO -redo
+Seed:    224843 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct 29 15:17:17 2025
+Kernel:  SSE2 - auto-detect threads (14 CPU cores detected)
+
+Reading alignment file alignments/UL29_non_recomb.fst ... Fasta format detected
+Reading fasta file: done in 0.0027349 secs using 90.35% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 112 sites contain only gaps or ambiguous characters.
+Alignment has 104 sequences with 3364 columns, 470 distinct patterns
+423 parsimony-informative, 438 singleton sites, 2503 constant sites
+Analyzing sequences: done in 4.3869e-05 secs using 186.9% CPU
+NOTE: 9 identical sequences (see below) will be ignored for subsequent analysis
+Alignment was printed to iqtree_genes/UL29_non_recomb.fst.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to iqtree_genes/UL29_non_recomb.fst.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.00 seconds
+
+NOTE: 5 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 14 CPU cores
+Increase to 10 rounds for branch lengths
+249 trees examined
+Threads: 1 / Time: 14.06 sec / Speedup: 1.00 / Efficiency: 100% / LogL: -37128
+Threads: 2 / Time: 14.03 sec / Speedup: 1.00 / Efficiency: 50% / LogL: -37128
+Threads: 3 / Time: 14.14 sec / Speedup: 0.99 / Efficiency: 33% / LogL: -37128
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.50)
+1. Initial log-likelihood: -10614.62
+2. Current log-likelihood: -10444.39
+3. Current log-likelihood: -10428.73
+4. Current log-likelihood: -10423.79
+5. Current log-likelihood: -10422.06
+6. Current log-likelihood: -10421.37
+Optimal log-likelihood: -10420.96
+Rate parameters:  A-C: 1.68176  A-G: 3.49090  A-T: 0.13978  C-G: 1.55822  C-T: 3.84181  G-T: 1.00000
+Base frequencies:  A: 0.155  C: 0.357  G: 0.336  T: 0.152
+Site proportion and rates:  (0.321,0.007) (0.310,0.263) (0.293,1.358) (0.075,6.921)
+Parameters optimization took 6 rounds (0.883 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0180271 secs using 98.64% CPU
+Computing ML distances took 0.018175 sec (of wall-clock time) 0.017884 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000119925 secs using 84.22% CPU
+Computing RapidNJ tree took 0.000502 sec (of wall-clock time) 0.000771 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -10491.101
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -10407.016
+Finish initializing candidate tree set (4)
+Current best tree score: -10407.016 / CPU time: 0.431
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -10407.016
+Optimal log-likelihood: -10406.967
+Rate parameters:  A-C: 1.67647  A-G: 3.50908  A-T: 0.13505  C-G: 1.50394  C-T: 3.85223  G-T: 1.00000
+Base frequencies:  A: 0.154  C: 0.359  G: 0.337  T: 0.151
+Site proportion and rates:  (0.321,0.007) (0.310,0.240) (0.293,1.363) (0.075,7.000)
+Parameters optimization took 1 rounds (0.096 sec)
+BEST SCORE FOUND : -10406.967
+Total tree length: 0.607
+
+Total number of iterations: 2
+CPU time used for tree search: 0.429 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.431 sec (0h:0m:0s)
+Total CPU time used: 50.555 sec (0h:0m:50s)
+Total wall-clock time used: 43.709 sec (0h:0m:43s)
+
+Analysis results written to: 
+  IQ-TREE report:                iqtree_genes/UL29_non_recomb.fst.iqtree
+  Maximum-likelihood tree:       iqtree_genes/UL29_non_recomb.fst.treefile
+  Likelihood distances:          iqtree_genes/UL29_non_recomb.fst.mldist
+  Screen log file:               iqtree_genes/UL29_non_recomb.fst.log
+
+Date and Time: Wed Oct 29 15:18:00 2025

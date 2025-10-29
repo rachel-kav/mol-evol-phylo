@@ -1,0 +1,212 @@
+IQ-TREE 2.3.6 built Jul 30 2024
+
+Input file name: alignments/UL39_recomb.fst
+Type of analysis: tree reconstruction
+Random seed number: 240868
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 104 sequences with 499 nucleotide sites
+Number of constant sites: 367 (= 73.5471% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 367 (= 73.5471% of all sites)
+Number of parsimony informative sites: 58
+Number of distinct site patterns: 79
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+FO+R4
+
+Rate parameter R:
+
+  A-C: 1.2889
+  A-G: 2.3842
+  A-T: 0.2018
+  C-G: 0.8206
+  C-T: 2.9432
+  G-T: 1.0000
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.1598
+  pi(C) = 0.3574
+  pi(G) = 0.3335
+  pi(T) = 0.1492
+
+Rate matrix Q:
+
+  A    -1.261    0.4516    0.7794   0.02951
+  C    0.2019   -0.9006    0.2682    0.4304
+  G    0.3735    0.2875   -0.8073    0.1463
+  T   0.03161     1.031    0.3269     -1.39
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.3025,0.003564) (0.08993,0.003564) (0.3489,0.2205) (0.2586,3.564)
+
+ Category  Relative_rate  Proportion
+  1         0.003564       0.3025
+  2         0.003564       0.08993
+  3         0.2205         0.3489
+  4         3.564          0.2586
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1590.7671 (s.e. 72.3958)
+Unconstrained log-likelihood (without tree): -1285.8469
+Number of free parameters (#branches + #model parameters): 115
+Akaike information criterion (AIC) score: 3411.5342
+Corrected Akaike information criterion (AICc) score: 3481.1947
+Bayesian information criterion (BIC) score: 3895.9839
+
+Total tree length (sum of branch lengths): 0.7175
+Sum of internal branch lengths: 0.1245 (17.3482% of tree length)
+
+WARNING: 33 near-zero internal branches (<0.0020) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'HSV-1_HM585496_Kenya_-_UL39_CDSHumanherpesvirus1strainE06partialgenome' is drawn at root
+
++**HSV-1_HM585496_Kenya_-_UL39_CDSHumanherpesvirus1strainE06partialgenome
+|
+|                    +----------------------------------------------------------Cercopithecine_herpesvirus_2_NC_006560_-_UL39_CDSCercopithecineherpesvirus2completegenome
+|                 +**|
+|                 |  |  +**HSV-2v_13_Congo_consensus_sequence_-_UL39_CDS111799readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs
+|                 |  +--|
+|                 |     |      +**HSV-2v_15_France_Martinique_consensus_sequence_-_UL39_CDS351512readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs
+|                 |     |   +**|
+|                 |     |   |  +**HSV-2_NC_001798_United_Kingdom_-_UL39_CDSHumanherpesvirus2strainHG52completegenome
+|                 |     +---|
+|                 |         |   +**HSV-2_KR135311_USA_WA__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2USBID-G1908310883-2001-133472005genomicsequence
+|                 |         +---|
+|                 |             |        +--Chimpanzee_alpha-1_herpesvirus_JQ360576_-_UL39_CDSChimpanzeealpha-1herpesvirusstrain105640completegenome
+|                 |             |     +**|
+|                 |             |     |  |     +**HSV-2v_16_France_Metropole_consensus_sequence_-_UL39_CDS79150readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs
+|                 |             |     |  |  +--|
+|                 |             |     |  |  |  |  +**HSV-2v_12_Cote_d_Ivoire_consensus_sequence_-_UL39_CDS87540readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs
+|                 |             |     |  |  |  +--|
+|                 |             |     |  |  |     +**HSV-2v_1_Guinea_consensus_sequence_-_UL39_CDS167962readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs
+|                 |             |     |  +--|
+|                 |             |     |     |  +**HSV-2v_6_Equatorial_Guinea_consensus_sequence_-_UL39_CDS101820readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs
+|                 |             |     |     +**|
+|                 |             |     |        |  +--HSV-2v_8_Mali_consensus_sequence_-_UL39_CDS100842readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs
+|                 |             |     |        +**|
+|                 |             |     |           |  +**HSV-2v_2_Nigeria_consensus_sequence_-_UL39_CDS185442readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs
+|                 |             |     |           +--|
+|                 |             |     |              +**HSV-2v_3_Niger_consensus_sequence_-_UL39_CDS186942readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs
+|                 |             |  +**|
+|                 |             |  |  +--HSV-2v_7_Mali_consensus_sequence_-_UL39_CDS357675readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs
+|                 |             +--|
+|                 |                |        +**HSV-2v_14_France_Metropole_consensus_sequence_-_UL39_CDS142688readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs
+|                 |                |     +**|
+|                 |                |     |  +**HSV-2_KR135306_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G19078A761912008genomicsequence
+|                 |                |  +**|
+|                 |                |  |  |     +**HSV-2_KR135300_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G19072D306132007genomicsequence
+|                 |                |  |  |  +--|
+|                 |                |  |  |  |  +**HSV-2_KR135319_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G19091D397652008genomicsequence
+|                 |                |  |  +**|
+|                 |                |  |     +--HSV-2_KR135303_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G44423L228612007genomicsequence
+|                 |                +--|
+|                 |                   |        +**HSV-2v_18_consensus_sequence_-_UL39_CDS115015readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs
+|                 |                   |     +**|
+|                 |                   |     |  +**HSV-2_KR135325_Japan__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2JPBID-G32589JA5genomicsequence
+|                 |                   |  +**|
+|                 |                   |  |  |     +**HSV-2_KR135318_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G19090D396502008genomicsequence
+|                 |                   |  |  |  +**|
+|                 |                   |  |  |  |  +**HSV-2_KR135316_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G19088G758092007genomicsequence
+|                 |                   |  |  +--|
+|                 |                   |  |     +--HSV-2_KR135317_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G19089A768322007genomicsequence
+|                 |                   +--|
+|                 |                      |  +**HSV-2_KR135313_USA_WA__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2USBID-G190859335-2007-142011genomicsequence
+|                 |                      +--|
+|                 |                         +**HSV-2_KR135312_USA_WA__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2USBID-G190849335-2005-5762009genomicsequence
+|              +**|
+|              |  |  +**HSV-2v_9_Cote_d_Ivoire_consensus_sequence_-_UL39_CDS135955readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs
+|              |  +**|
+|              |     +**HSV-2_KR135308_USA_MD__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2USBID-G1908044-4198512007genomicsequence
+|           +**|
+|           |  +**HSV-1_JN420342_USA_Seattle_Washington_-_UL39_CDSHumanherpesvirus1strainOD4partialgenome
+|        +**|
+|        |  |  +**HSV-1_KM222720_USA_-_UL39_CDSUNVERIFIEDHumanherpesvirus1strainMacIntyrepartialgenome
+|        |  +**|
+|        |     +**HSV-1_JN420340_USA_Seattle_Washington_-_UL39_CDSHumanherpesvirus1strainCJ394partialgenome
+|     +**|
+|     |  +--HSV-1_KF498959_USA_-_UL39_CDSHumanherpesvirus1isolateREcompletegenome
+|  +--|
+|  |  |           +**HSV-1_HM585515_South_Korea_-_UL39_CDSHumanherpesvirus1strainR62partialgenome
+|  |  |        +**|
+|  |  |        |  +**HSV-1_HM585513_Japan_-_UL39_CDSHumanherpesvirus1strainS25partialgenome
+|  |  |     +**|
+|  |  |     |  +**HSV-1_HM585512_Japan_-_UL39_CDSHumanherpesvirus1strainS23partialgenome
+|  |  |  +**|
+|  |  |  |  +--HSV-1_HM585497_Kenya_-_UL39_CDSHumanherpesvirus1strainE07partialgenome
+|  |  +**|
+|  |     |              +**HSV-1_JN420341_USA_Seattle_Washington_-_UL39_CDSHumanherpesvirus1strainCJ970partialgenome
+|  |     |           +**|
+|  |     |           |  |     +--HSV-1_KM222726_USA_-_UL39_CDSUNVERIFIEDHumanherpesvirus1strainH166partialgenome
+|  |     |           |  |  +**|
+|  |     |           |  |  |  +**HSV-1_KM222727_USA_-_UL39_CDSUNVERIFIEDHumanherpesvirus1strainH166synpartialgenome
+|  |     |           |  +**|
+|  |     |           |     +**HSV-1_HM585514_South_Korea_-_UL39_CDSHumanherpesvirus1strainR11partialgenome
+|  |     |        +**|
+|  |     |        |  |  +**HSV-1_KT899744_USA_-_UL39_CDSHumanherpesvirus1isolateKOScompletegenome
+|  |     |        |  +**|
+|  |     |        |     +**HSV-1_KM222721_USA_-_UL39_CDSUNVERIFIEDHumanherpesvirus1strainKOSpartialgenome
+|  |     |     +**|
+|  |     |     |  |     +**HSV-1_HM585511_Kenya_-_UL39_CDSHumanherpesvirus1strainE19partialgenome
+|  |     |     |  |  +**|
+|  |     |     |  |  |  +**HSV-1_HM585498_Kenya_-_UL39_CDSHumanherpesvirus1strainE08partialgenome
+|  |     |     |  +**|
+|  |     |     |     +--HSV-1_HM585502_Kenya_-_UL39_CDSHumanherpesvirus1strainE13partialgenome
+|  |     |  +**|
+|  |     |  |  +**HSV-1_KM222725_USA_-_UL39_CDSUNVERIFIEDHumanherpesvirus1strainFpartialgenome
+|  |     +**|
+|  |        +**HSV-1_KM222724_USA_-_UL39_CDSUNVERIFIEDHumanherpesvirus1strainFpartialgenome
++**|
+|  |  +--HSV-1_JN420337_USA_Seattle_Washington_-_UL39_CDSHumanherpesvirus1strainTFT401partialgenome
+|  +--|
+|     |  +**HSV-1_HM585509_Kenya_-_UL39_CDSHumanherpesvirus1strainE03partialgenome
+|     +--|
+|        +**HSV-1_HM585504_Kenya_-_UL39_CDSHumanherpesvirus1strainE22partialgenome
+|
++**HSV-1_HM585507_Kenya_-_UL39_CDSHumanherpesvirus1strainE35partialgenome
+
+Tree in newick format:
+
+(HSV-1_HM585496_Kenya_-_UL39_CDSHumanherpesvirus1strainE06partialgenome:0.0000010000,(((((((Cercopithecine_herpesvirus_2_NC_006560_-_UL39_CDSCercopithecineherpesvirus2completegenome:0.5131136919,(HSV-2v_13_Congo_consensus_sequence_-_UL39_CDS111799readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs:0.0000010000,((HSV-2v_15_France_Martinique_consensus_sequence_-_UL39_CDS351512readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs:0.0000010000,HSV-2_NC_001798_United_Kingdom_-_UL39_CDSHumanherpesvirus2strainHG52completegenome:0.0000010000):0.0000010000,(HSV-2_KR135311_USA_WA__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2USBID-G1908310883-2001-133472005genomicsequence:0.0017234077,(((Chimpanzee_alpha-1_herpesvirus_JQ360576_-_UL39_CDSChimpanzeealpha-1herpesvirusstrain105640completegenome:0.0277966754,((HSV-2v_16_France_Metropole_consensus_sequence_-_UL39_CDS79150readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs:0.0000010000,(HSV-2v_12_Cote_d_Ivoire_consensus_sequence_-_UL39_CDS87540readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs:0.0000010000,HSV-2v_1_Guinea_consensus_sequence_-_UL39_CDS167962readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs:0.0000010000):0.0020360031):0.0020286204,(HSV-2v_6_Equatorial_Guinea_consensus_sequence_-_UL39_CDS101820readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs:0.0000010000,(HSV-2v_8_Mali_consensus_sequence_-_UL39_CDS100842readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs:0.0020221953,(HSV-2v_2_Nigeria_consensus_sequence_-_UL39_CDS185442readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs:0.0000010000,HSV-2v_3_Niger_consensus_sequence_-_UL39_CDS186942readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs:0.0000010000):0.0020223031):0.0000010000):0.0000010000):0.0020275918):0.0000010000,HSV-2v_7_Mali_consensus_sequence_-_UL39_CDS357675readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs:0.0020363707):0.0019648824,(((HSV-2v_14_France_Metropole_consensus_sequence_-_UL39_CDS142688readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs:0.0000010000,HSV-2_KR135306_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G19078A761912008genomicsequence:0.0000010000):0.0000010000,((HSV-2_KR135300_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G19072D306132007genomicsequence:0.0000010000,HSV-2_KR135319_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G19091D397652008genomicsequence:0.0000010000):0.0020372799,HSV-2_KR135303_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G44423L228612007genomicsequence:0.0020256590):0.0000010000):0.0000010000,(((HSV-2v_18_consensus_sequence_-_UL39_CDS115015readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs:0.0000010000,HSV-2_KR135325_Japan__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2JPBID-G32589JA5genomicsequence:0.0000010000):0.0000010000,((HSV-2_KR135318_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G19090D396502008genomicsequence:0.0000010000,HSV-2_KR135316_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G19088G758092007genomicsequence:0.0000010000):0.0000010000,HSV-2_KR135317_Uganda_Rakai__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2UGBID-G19089A768322007genomicsequence:0.0020347545):0.0021030516):0.0000010000,(HSV-2_KR135313_USA_WA__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2USBID-G190859335-2007-142011genomicsequence:0.0000010000,HSV-2_KR135312_USA_WA__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2USBID-G190849335-2005-5762009genomicsequence:0.0000010000):0.0061708218):0.0020370937):0.0021050072):0.0130318061):0.0358436258):0.0350143482):0.0123023981):0.0000028790,(HSV-2v_9_Cote_d_Ivoire_consensus_sequence_-_UL39_CDS135955readsassembledtoHuman_herpesvirus_2_NC_001798_sans_trl_trs:0.0000010000,HSV-2_KR135308_USA_MD__-_UL39_CDSUNVERIFIEDHumanherpesvirus2isolateHSV-2USBID-G1908044-4198512007genomicsequence:0.0000010000):0.0000010000):0.0019995899,HSV-1_JN420342_USA_Seattle_Washington_-_UL39_CDSHumanherpesvirus1strainOD4partialgenome:0.0019975408):0.0000010000,(HSV-1_KM222720_USA_-_UL39_CDSUNVERIFIEDHumanherpesvirus1strainMacIntyrepartialgenome:0.0000010000,HSV-1_JN420340_USA_Seattle_Washington_-_UL39_CDSHumanherpesvirus1strainCJ394partialgenome:0.0000010000):0.0000010000):0.0000010000,HSV-1_KF498959_USA_-_UL39_CDSHumanherpesvirus1isolateREcompletegenome:0.0020072529):0.0019931691,((((HSV-1_HM585515_South_Korea_-_UL39_CDSHumanherpesvirus1strainR62partialgenome:0.0000010000,HSV-1_HM585513_Japan_-_UL39_CDSHumanherpesvirus1strainS25partialgenome:0.0000010000):0.0000010000,HSV-1_HM585512_Japan_-_UL39_CDSHumanherpesvirus1strainS23partialgenome:0.0019813981):0.0019874468,HSV-1_HM585497_Kenya_-_UL39_CDSHumanherpesvirus1strainE07partialgenome:0.0060098790):0.0000010000,(((((HSV-1_JN420341_USA_Seattle_Washington_-_UL39_CDSHumanherpesvirus1strainCJ970partialgenome:0.0019870012,((HSV-1_KM222726_USA_-_UL39_CDSUNVERIFIEDHumanherpesvirus1strainH166partialgenome:0.0039844542,HSV-1_KM222727_USA_-_UL39_CDSUNVERIFIEDHumanherpesvirus1strainH166synpartialgenome:0.0019746407):0.0000029957,HSV-1_HM585514_South_Korea_-_UL39_CDSHumanherpesvirus1strainR11partialgenome:0.0000010000):0.0019806236):0.0000023983,(HSV-1_KT899744_USA_-_UL39_CDSHumanherpesvirus1isolateKOScompletegenome:0.0000010000,HSV-1_KM222721_USA_-_UL39_CDSUNVERIFIEDHumanherpesvirus1strainKOSpartialgenome:0.0000010000):0.0000010000):0.0019869559,((HSV-1_HM585511_Kenya_-_UL39_CDSHumanherpesvirus1strainE19partialgenome:0.0000010000,HSV-1_HM585498_Kenya_-_UL39_CDSHumanherpesvirus1strainE08partialgenome:0.0000010000):0.0000010000,HSV-1_HM585502_Kenya_-_UL39_CDSHumanherpesvirus1strainE13partialgenome:0.0039949740):0.0019962134):0.0000010000,HSV-1_KM222725_USA_-_UL39_CDSUNVERIFIEDHumanherpesvirus1strainFpartialgenome:0.0000010000):0.0000010000,HSV-1_KM222724_USA_-_UL39_CDSUNVERIFIEDHumanherpesvirus1strainFpartialgenome:0.0000010000):0.0000010000):0.0000010000):0.0020040236,(HSV-1_JN420337_USA_Seattle_Washington_-_UL39_CDSHumanherpesvirus1strainTFT401partialgenome:0.0020063453,(HSV-1_HM585509_Kenya_-_UL39_CDSHumanherpesvirus1strainE03partialgenome:0.0000010000,HSV-1_HM585504_Kenya_-_UL39_CDSHumanherpesvirus1strainE22partialgenome:0.0000010000):0.0020190479):0.0020278213):0.0020024785,HSV-1_HM585507_Kenya_-_UL39_CDSHumanherpesvirus1strainE35partialgenome:0.0000010000);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t iqtree_genes/UL39_recomb.fst.treefile -m "GTR{1.28893,2.38416,0.201781,0.820555,2.94316}+FO{0.159839,0.357448,0.33351,0.149203}+R4{0.302531,0.00356422,0.0899345,0.00356422,0.34895,0.220519,0.258585,3.56422}" --length 499
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s alignments/UL39_recomb.fst --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s alignments/UL39_recomb.fst --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Oct 29 15:22:03 2025
+Total CPU time used: 37.4436 seconds (0h:0m:37s)
+Total wall-clock time used: 52.765 seconds (0h:0m:52s)
+

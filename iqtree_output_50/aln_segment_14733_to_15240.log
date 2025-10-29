@@ -1,0 +1,19 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    SUN1029323 (SSE4.2, 36 GB RAM)
+Command: iqtree2 -s iqtree_output_50/aln_segment_14733_to_15240.fasta -m GTR -nt AUTO -fast -pre iqtree_output_50/aln_segment_14733_to_15240
+Seed:    255680 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct 29 15:05:09 2025
+Kernel:  SSE2 - auto-detect threads (14 CPU cores detected)
+
+Reading alignment file iqtree_output_50/aln_segment_14733_to_15240.fasta ... Fasta format detected
+Reading fasta file: done in 0.000412941 secs using 89.36% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 104 sequences with 508 columns, 161 distinct patterns
+146 parsimony-informative, 127 singleton sites, 235 constant sites
+Analyzing sequences: done in 5.6982e-05 secs using 73.71% CPU
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+WARNING: Sequence HSV2_11 contains only gaps or missing data
+ERROR: Some sequences (see above) are problematic, please check your alignment again
