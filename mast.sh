@@ -4,8 +4,11 @@
 #-m substitution model
 #+T adds MAST
 #-te tree output
-FASTA="alignments/trim_genome_50.fasta"
-TREES="iqtree_output_50/trim_trees.newick"
-OUT1="mast_output/trim_genome_50"
+#cd /home/rachel/mol_evol
 
-iqtree2 -s $FASTA -m "GTR+FO+R4+T" -te $TREES --prefix $OUT1 -fast -nt AUTO -wspmr -wslmr -redo
+FASTA="trim_genome_50.fasta"
+TREES="iqtree_output_50/trim_trees.newick"
+OUT1="mast_output/mast1"
+
+iqtree2 -s $FASTA -m "GTR+FO+R4+T" -te $TREES --prefix $OUT1 -fast -nt AUTO -wslmr -redo
+#wslmr calculates the site log marginal likelihoods

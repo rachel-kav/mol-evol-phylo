@@ -26,9 +26,9 @@ trimCols <- function(al, prop, codon = T){
 }
 
 
-fasta <- "alignments/Whole_genome_1.fst" ###change this to your input file
+fasta <- "alignments/filtered_sequences.fasta" 
 aln <- read.dna(fasta, format = "fasta")  
-trimmed_seqs <- trimCols(aln, prop = 0.8, codon = F)
+trimmed_seqs <- trimCols(aln, prop = 0.5, codon = F)
 
 #remove gappy chunks at beginning
 aln_mat <- as.character(trimmed_seqs)
@@ -37,4 +37,4 @@ aln_trimmed <- aln_mat[, -(c(1:5081, (total_cols-2060):total_cols))]
 output_file <- "alignments/trim_genome_africa.fasta"
 write.dna(aln_trimmed, file = output_file, format = "fasta", colsep = "")
 
-#rsync -avz /Users/qjs599/Desktop/mol-evol-phylo/alignments/trim_genome_africa.fasta rachel@ku-01.ifsv-bd.lan.ku.dk:/home/rachel/mol_evol/alignments/trim_genome_africa.fasta
+#rsync -avz /Users/qjs599/Desktop/mol-evol-phylo/alignments/trim_genome_africa.fasta rachel@ku-01.ifsv-bd.lan.ku.dk:/home/rachel/mol_evol/trim_genome_africa.fasta
