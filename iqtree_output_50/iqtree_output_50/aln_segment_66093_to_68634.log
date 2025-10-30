@@ -1,0 +1,19 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    ku-01 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree2 -s iqtree_output_50/aln_segment_66093_to_68634.fasta -m MFP -redo -nt AUTO -fast -pre iqtree_output_50/aln_segment_66093_to_68634
+Seed:    202981 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct 29 19:40:57 2025
+Kernel:  AVX+FMA - auto-detect threads (64 CPU cores detected)
+
+Reading alignment file iqtree_output_50/aln_segment_66093_to_68634.fasta ... Fasta format detected
+Reading fasta file: done in 0.00234349 secs using 85.17% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 104 sequences with 2542 columns, 942 distinct patterns
+429 parsimony-informative, 533 singleton sites, 1580 constant sites
+Analyzing sequences: done in 0.00799571 secs using 6296% CPU
+WARNING: 5 sequences contain more than 50% gaps/ambiguity
+WARNING: Sequence HSV2_11 contains only gaps or missing data
+ERROR: Some sequences (see above) are problematic, please check your alignment again

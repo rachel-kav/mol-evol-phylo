@@ -1,0 +1,36 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    ku-01 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree2 -s iqtree_output_50/aln_segment_127101_to_127123.fasta -m MFP -redo -nt AUTO -fast -pre iqtree_output_50/aln_segment_127101_to_127123
+Seed:    928824 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct 29 20:51:28 2025
+Kernel:  AVX+FMA - auto-detect threads (64 CPU cores detected)
+
+Reading alignment file iqtree_output_50/aln_segment_127101_to_127123.fasta ... Fasta format detected
+Reading fasta file: done in 0.000137912 secs
+Alignment most likely contains DNA/RNA sequences
+Alignment has 104 sequences with 23 columns, 18 distinct patterns
+9 parsimony-informative, 5 singleton sites, 9 constant sites
+Analyzing sequences: done in 0.00700594 secs using 6294% CPU
+WARNING: 18 sequences contain more than 50% gaps/ambiguity
+WARNING: Sequence HSV2_1 contains only gaps or missing data
+WARNING: Sequence HSV2_2 contains only gaps or missing data
+WARNING: Sequence HSV2_3 contains only gaps or missing data
+WARNING: Sequence HSV2_4 contains only gaps or missing data
+WARNING: Sequence HSV2_5 contains only gaps or missing data
+WARNING: Sequence HSV2_6 contains only gaps or missing data
+WARNING: Sequence HSV2_7 contains only gaps or missing data
+WARNING: Sequence HSV2_8 contains only gaps or missing data
+WARNING: Sequence HSV2_9 contains only gaps or missing data
+WARNING: Sequence HSV2_10 contains only gaps or missing data
+WARNING: Sequence HSV2_11 contains only gaps or missing data
+WARNING: Sequence HSV2_12 contains only gaps or missing data
+WARNING: Sequence HSV2_13 contains only gaps or missing data
+WARNING: Sequence HSV2_14 contains only gaps or missing data
+WARNING: Sequence HSV2_15 contains only gaps or missing data
+WARNING: Sequence HSV2_16 contains only gaps or missing data
+WARNING: Sequence HSV2_17 contains only gaps or missing data
+WARNING: Sequence HSV2_18 contains only gaps or missing data
+ERROR: Some sequences (see above) are problematic, please check your alignment again

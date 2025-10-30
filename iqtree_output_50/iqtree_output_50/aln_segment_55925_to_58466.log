@@ -1,0 +1,149 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    ku-01 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree2 -s iqtree_output_50/aln_segment_55925_to_58466.fasta -m MFP -redo -nt AUTO -fast -pre iqtree_output_50/aln_segment_55925_to_58466
+Seed:    817270 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct 29 19:31:42 2025
+Kernel:  AVX+FMA - auto-detect threads (64 CPU cores detected)
+
+Reading alignment file iqtree_output_50/aln_segment_55925_to_58466.fasta ... Fasta format detected
+Reading fasta file: done in 0.00369156 secs using 92.7% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 104 sequences with 2542 columns, 490 distinct patterns
+339 parsimony-informative, 379 singleton sites, 1824 constant sites
+Analyzing sequences: done in 0.00699612 secs using 6302% CPU
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+NOTE: 16 identical sequences (see below) will be ignored for subsequent analysis
+Alignment was printed to iqtree_output_50/aln_segment_55925_to_58466.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to iqtree_output_50/aln_segment_55925_to_58466.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.00 seconds
+Measuring multi-threading efficiency up to 64 CPU cores
+Increase to 10 rounds for branch lengths
+2002 trees examined
+Threads: 1 / Time: 64.01 sec / Speedup: 1.00 / Efficiency: 100% / LogL: -21720
+Threads: 2 / Time: 67.09 sec / Speedup: 0.95 / Efficiency: 48% / LogL: -21720
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.00)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.00)
+1. Initial log-likelihood: -7967.34
+Optimal log-likelihood: -7967.11
+Rate parameters:  A-C: 1.08464  A-G: 2.54448  A-T: 0.07565  C-G: 1.01833  C-T: 2.08356  G-T: 1.00000
+Base frequencies:  A: 0.166  C: 0.324  G: 0.363  T: 0.148
+Proportion of invariable sites: 0.356
+Gamma shape alpha: 0.829
+Parameters optimization took 1 rounds (0.052 sec)
+Time for fast ML tree search: 0.284 seconds
+
+NOTE: ModelFinder requires 14 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 2542 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         8071.240     181 16504.480    16532.397    17561.648
+  2  GTR+F+I       7975.072     182 16314.143    16342.381    17377.152
+  3  GTR+F+G4      7969.548     182 16303.096    16331.333    17366.104
+  4  GTR+F+I+G4    7967.083     183 16300.166    16328.726    17369.015
+  5  GTR+F+R2      7965.896     183 16297.792    16326.352    17366.642
+  6  GTR+F+R3      7945.644     185 16261.287    16290.498    17341.818
+  7  GTR+F+R4      7945.344     187 16264.688    16294.558    17356.900
+ 14  GTR+F+I+R2    7967.102     184 16302.204    16331.088    17376.894
+ 15  GTR+F+I+R3    7951.819     186 16275.638    16305.177    17362.009
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.031
+ 16  GTR+F+I+R4    7952.162     188 16280.323    16310.525    17378.376
+ 28  SYM+R3        8201.381     182 16766.761    16794.999    17829.770
+ 50  TVM+F+R3      7945.264     184 16258.528    16287.412    17333.218
+ 72  TVMe+R3       8203.747     181 16769.494    16797.411    17826.662
+ 94  TIM3+F+R3     7957.691     183 16281.382    16309.942    17350.232
+116  TIM3e+R3      8243.198     180 16846.396    16873.995    17897.724
+138  TIM2+F+R3     7958.270     183 16282.539    16311.099    17351.389
+160  TIM2e+R3      8245.932     180 16851.863    16879.462    17903.190
+182  TIM+F+R3      7960.554     183 16287.108    16315.668    17355.958
+204  TIMe+R3       8270.026     180 16900.052    16927.650    17951.379
+226  TPM3u+F+R3    7958.784     182 16281.569    16309.806    17344.577
+248  TPM3+R3       8245.310     179 16848.621    16875.903    17894.107
+270  TPM2u+F+R3    7959.208     182 16282.415    16310.653    17345.424
+292  TPM2+R3       8248.174     179 16854.348    16881.630    17899.835
+314  K3Pu+F+R3     7961.743     182 16287.487    16315.724    17350.495
+336  K3P+R3        8272.176     179 16902.352    16929.634    17947.839
+358  TN+F+R3       7961.104     182 16286.208    16314.446    17349.217
+380  TNe+R3        8277.272     179 16912.545    16939.827    17958.031
+402  HKY+F+R3      7962.036     181 16286.071    16313.988    17343.239
+424  K2P+R3        8279.464     178 16914.927    16941.895    17954.573
+446  F81+F+R3      8022.462     180 16404.923    16432.522    17456.250
+468  JC+R3         8309.425     177 16972.850    16999.505    18006.655
+Akaike Information Criterion:           TVM+F+R3
+Corrected Akaike Information Criterion: TVM+F+R3
+Bayesian Information Criterion:         TVM+F+R3
+Best-fit model: TVM+F+R3 chosen according to BIC
+
+All model information printed to iqtree_output_50/aln_segment_55925_to_58466.model.gz
+CPU time for ModelFinder: 204.766 seconds (0h:3m:24s)
+Wall-clock time for ModelFinder: 140.407 seconds (0h:2m:20s)
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -8024.585
+2. Current log-likelihood: -7946.097
+3. Current log-likelihood: -7945.124
+Optimal log-likelihood: -7945.079
+Rate parameters:  A-C: 1.02750  A-G: 2.25254  A-T: 0.08886  C-G: 1.04896  C-T: 2.25254  G-T: 1.00000
+Base frequencies:  A: 0.166  C: 0.324  G: 0.363  T: 0.148
+Site proportion and rates:  (0.560,0.039) (0.435,1.786) (0.005,38.760)
+Parameters optimization took 3 rounds (0.166 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0197531 secs using 99.99% CPU
+Computing ML distances took 0.019846 sec (of wall-clock time) 0.019847 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000450905 secs using 321.6% CPU
+Computing RapidNJ tree took 0.001085 sec (of wall-clock time) 0.002083 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -8019.202
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+BETTER TREE FOUND at iteration 1: -7945.078
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 2: -7941.857
+Finish initializing candidate tree set (4)
+Current best tree score: -7941.857 / CPU time: 0.197
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:2m:20s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -7941.857
+Optimal log-likelihood: -7941.857
+Rate parameters:  A-C: 1.12575  A-G: 2.36627  A-T: 0.08877  C-G: 1.10844  C-T: 2.36627  G-T: 1.00000
+Base frequencies:  A: 0.166  C: 0.324  G: 0.363  T: 0.148
+Site proportion and rates:  (0.560,0.039) (0.435,1.786) (0.005,38.760)
+Parameters optimization took 1 rounds (0.030 sec)
+BEST SCORE FOUND : -7941.857
+Total tree length: 0.600
+
+Total number of iterations: 2
+CPU time used for tree search: 0.193 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.197 sec (0h:0m:0s)
+Total CPU time used: 205.219 sec (0h:3m:25s)
+Total wall-clock time used: 140.857 sec (0h:2m:20s)
+
+Analysis results written to: 
+  IQ-TREE report:                iqtree_output_50/aln_segment_55925_to_58466.iqtree
+  Maximum-likelihood tree:       iqtree_output_50/aln_segment_55925_to_58466.treefile
+  Likelihood distances:          iqtree_output_50/aln_segment_55925_to_58466.mldist
+  Screen log file:               iqtree_output_50/aln_segment_55925_to_58466.log
+
+Date and Time: Wed Oct 29 19:34:03 2025

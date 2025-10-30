@@ -1,0 +1,395 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: iqtree_output_50/aln_segment_58467_to_61008.fasta
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 858042
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 104 sequences with 2542 nucleotide sites
+Number of constant sites: 1564 (= 61.5264% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1564 (= 61.5264% of all sites)
+Number of parsimony informative sites: 513
+Number of distinct site patterns: 782
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+HKY+F+R4          -9371.970   19133.939 -  0.00586   19166.522 -   0.0126   20272.877 +    0.863
+TPM3u+F+R4        -9371.025   19134.051 -  0.00554   19166.982 -     0.01   20278.829 -    0.044
+K3Pu+F+R4         -9371.300   19134.600 -  0.00421   19167.531 -   0.0076   20279.378 -   0.0334
+TPM2u+F+R4        -9371.540   19135.080 -  0.00331   19168.012 -  0.00598   20279.859 -   0.0263
+TN+F+R4           -9371.932   19135.863 -  0.00224   19168.795 -  0.00404   20280.642 -   0.0178
+HKY+F+R5          -9368.493   19130.986 -   0.0257   19164.267 -   0.0389   20281.605 -    0.011
+TIM3+F+R4         -9370.953   19135.907 -  0.00219   19169.188 -  0.00332   20286.526 - 0.000938
+TIM+F+R4          -9371.280   19136.561 -  0.00158   19169.842 -  0.00239   20287.180 - 0.000676
+K3Pu+F+R5         -9367.546   19131.092 -   0.0243   19164.726 -   0.0309   20287.552 - 0.000561
+TIM2+F+R4         -9371.530   19137.061 -  0.00123   19170.342 -  0.00187   20287.680 - 0.000527
+TVM+F+R4          -9367.641   19131.281 -   0.0221   19164.915 -   0.0281   20287.741 - 0.000511
+TPM3u+F+R5        -9367.785   19131.569 -   0.0192   19165.203 -   0.0244   20288.029 - 0.000442
+TPM2u+F+R5        -9368.187   19132.373 -   0.0128   19166.007 -   0.0163   20288.833 - 0.000296
+TN+F+R5           -9368.453   19132.906 -  0.00982   19166.540 -   0.0125   20289.366 - 0.000227
+TIM+F+R5          -9365.137   19128.274 +   0.0995   19162.263 +    0.106   20290.575 - 0.000124
+TIM3+F+R5         -9365.544   19129.088 +   0.0663   19163.076 +   0.0706   20291.388 - 8.25e-05
+TIM2+F+R5         -9365.965   19129.929 -   0.0435   19163.917 -   0.0463   20292.230 - 5.42e-05
+HKY+F+I+R4        -9377.881   19147.762 - 5.84e-06   19180.693 - 1.05e-05   20292.540 - 4.64e-05
+TVM+F+R5          -9362.266   19124.532 +    0.647   19158.877 +    0.576   20292.674 - 4.34e-05
+K3Pu+F+I+R4       -9376.839   19147.678 - 6.09e-06   19180.959 - 9.23e-06   20298.297 - 2.61e-06
+TPM3u+F+I+R4      -9377.238   19148.476 - 4.09e-06   19181.757 - 6.19e-06   20299.095 - 1.75e-06
+TPM2u+F+I+R4      -9377.624   19149.249 - 2.78e-06   19182.530 - 4.21e-06   20299.868 - 1.19e-06
+TN+F+I+R4         -9377.785   19149.570 - 2.36e-06   19182.852 - 3.58e-06   20300.189 - 1.01e-06
+TIM+F+I+R4        -9376.736   19149.472 - 2.48e-06   19183.106 - 3.16e-06   20305.932 - 5.73e-08
+TIM3+F+I+R4       -9377.102   19150.205 - 1.72e-06   19183.839 - 2.19e-06   20306.665 - 3.97e-08
+TIM2+F+I+R4       -9377.556   19151.112 - 1.09e-06   19184.746 - 1.39e-06   20307.572 - 2.52e-08
+TVM+F+I+R4        -9373.833   19145.665 - 1.67e-05   19179.653 - 1.77e-05   20307.966 - 2.07e-08
+GTR+F+R5          -9367.836   19137.672 - 0.000906   19172.375 - 0.000675   20311.654 - 3.28e-09
+GTR+F+R4          -9377.547   19153.093 - 4.06e-07   19187.081 - 4.32e-07   20315.394 - 5.05e-10
+GTR+F+I+R4        -9373.733   19147.467 - 6.77e-06   19181.811 - 6.03e-06   20315.608 - 4.54e-10
+GTR+F+R6          -9364.619   19135.238 -  0.00306   19170.663 -  0.00159   20320.901 - 3.22e-11
+GTR+F+R3          -9392.718   19179.435 - 7.74e-13   19212.717 - 1.17e-12   20330.055 - 3.31e-13
+GTR+F+I+R5        -9373.930   19151.859 - 7.53e-07   19186.922 - 4.68e-07   20331.682 - 1.47e-13
+GTR+F+I+G4        -9412.167   19214.333 - 2.04e-20   19246.916 - 4.39e-20   20353.271 - 3.01e-18
+GTR+F+G4          -9418.019   19224.037 -  1.6e-22   19256.274 - 4.08e-22   20357.134 - 4.36e-19
+GTR+F+R2          -9415.861   19221.722 - 5.08e-22   19254.305 - 1.09e-21   20360.660 - 7.48e-20
+GTR+F+I           -9442.288   19272.576 - 4.61e-33   19304.813 - 1.18e-32   20405.673 - 1.26e-29
+GTR+F+I+R3        -9428.190   19252.381 - 1.12e-28   19286.015 - 1.42e-28   20408.841 - 2.58e-30
+GTR+F+I+R2        -9440.559   19273.118 - 3.51e-33   19306.049 - 6.34e-33   20417.896 - 2.79e-32
+F81+F+R4          -9480.659   19349.318 - 9.98e-50   19381.555 - 2.55e-49   20482.415 - 2.72e-46
+F81+F+R5          -9479.066   19350.133 - 6.64e-50   19383.064 -  1.2e-49   20494.911 - 5.27e-49
+F81+F+I+R4        -9489.227   19368.454 - 6.98e-54   19401.037 -  1.5e-53   20507.392 - 1.03e-51
+GTR+F             -9590.515   19567.031 - 5.29e-97   19598.924 -  1.6e-96   20694.287 - 2.68e-92
+TVMe+R4           -9657.685   19705.369 - 4.82e-127   19737.953 - 1.04e-126   20844.307 - 7.1e-125
+SYM+R4            -9657.782   19707.563 - 1.61e-127   19740.494 - 2.91e-127   20852.342 - 1.28e-126
+TVMe+R5           -9657.582   19709.163 - 7.24e-128   19742.445 - 1.1e-127   20859.783 - 3.1e-128
+TVMe+I+R4         -9665.367   19722.734 - 8.18e-131   19755.665 - 1.48e-130   20867.512 - 6.5e-130
+SYM+R5            -9657.874   19711.748 - 1.99e-128   19745.382 - 2.53e-128   20868.208 - 4.59e-130
+SYM+I+R4          -9665.352   19724.705 - 3.05e-131   19757.986 - 4.63e-131   20875.324 - 1.31e-131
+TPM3+R4           -9681.213   19748.425 - 2.16e-136   19780.318 - 6.55e-136   20875.682 - 1.09e-131
+TPM2+R4           -9684.523   19755.045 - 7.88e-138   19786.938 - 2.39e-137   20882.301 - 3.99e-133
+TIM3e+R4          -9681.224   19750.448 - 7.85e-137   19782.685 - 2.01e-136   20883.545 - 2.14e-133
+TIM2e+R4          -9684.539   19757.079 - 2.85e-138   19789.316 - 7.28e-138   20890.176 - 7.78e-135
+TPM3+R5           -9681.051   19752.101 - 3.43e-137   19784.685 - 7.38e-137   20891.039 - 5.06e-135
+TPM2+R5           -9684.035   19758.069 - 1.74e-138   19790.652 - 3.73e-138   20897.007 - 2.56e-136
+TPM3+I+R4         -9688.959   19765.918 - 3.43e-140   19798.155 - 8.77e-140   20899.015 - 9.37e-137
+TIM3e+R5          -9681.145   19754.289 - 1.15e-137   19787.220 - 2.08e-137   20899.067 - 9.13e-137
+TPM2+I+R4         -9691.234   19770.467 - 3.53e-141   19802.704 - 9.02e-141   20903.564 - 9.64e-138
+TIM2e+R5          -9684.089   19760.179 - 6.05e-139   19793.110 - 1.09e-138   20904.957 - 4.8e-138
+TIM3e+I+R4        -9688.916   19767.832 - 1.32e-140   19800.415 - 2.83e-140   20906.769 - 1.94e-138
+TIM2e+I+R4        -9691.230   19772.459 - 1.3e-141   19805.043 - 2.8e-141   20911.397 - 1.92e-139
+K3P+R4            -9699.587   19785.174 - 2.26e-144   19817.067 - 6.86e-144   20912.431 - 1.14e-139
+K2P+R4            -9705.311   19794.623 - 2.01e-146   19826.173 - 7.22e-146   20916.038 - 1.88e-140
+TIMe+R4           -9699.580   19787.160 - 8.37e-145   19819.397 - 2.14e-144   20920.257 - 2.29e-141
+TNe+R4            -9705.317   19796.634 - 7.34e-147   19828.526 - 2.23e-146   20923.890 - 3.72e-142
+K3P+R5            -9699.176   19788.353 - 4.61e-145   19820.936 - 9.91e-145   20927.291 - 6.79e-143
+K2P+R5            -9704.447   19796.895 - 6.44e-147   19829.131 - 1.65e-146   20929.992 - 1.76e-143
+K3P+I+R4          -9706.812   19801.625 - 6.05e-148   19833.861 - 1.55e-147   20934.722 - 1.65e-144
+TIMe+R5           -9699.158   19790.316 - 1.73e-145   19823.248 - 3.12e-145   20935.095 - 1.37e-144
+K2P+I+R4          -9712.083   19810.165 - 8.46e-150   19842.058 - 2.57e-149   20937.422 - 4.29e-145
+TNe+R5            -9704.461   19798.922 - 2.34e-147   19831.505 - 5.02e-147   20937.859 - 3.44e-145
+TIMe+I+R4         -9706.791   19803.582 - 2.27e-148   19836.165 - 4.89e-148   20942.520 - 3.35e-146
+TNe+I+R4          -9712.057   19812.114 - 3.19e-150   19844.351 - 8.16e-150   20945.211 - 8.72e-147
+JC+R4             -9770.711   19923.421 - 2.16e-174   19954.631 - 9.21e-174   21038.996 - 3.76e-167
+JC+R5             -9770.112   19926.224 - 5.31e-175   19958.117 - 1.61e-174   21053.480 - 2.69e-170
+JC+I+R4           -9778.049   19940.098 - 5.16e-178   19971.649 - 1.86e-177   21061.514 - 4.85e-172
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+R4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 2.8859
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 2.8859
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1602
+  pi(C) = 0.3469
+  pi(G) = 0.3331
+  pi(T) = 0.1598
+
+Rate matrix Q:
+
+  A    -1.302    0.3075    0.8524    0.1416
+  C    0.1421   -0.8462    0.2954    0.4088
+  G      0.41    0.3075   -0.8592    0.1416
+  T    0.1421    0.8875    0.2954    -1.325
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.3863,0.02762) (0.5574,0.821) (0.04203,3.314) (0.01421,27.62)
+
+ Category  Relative_rate  Proportion
+  1         0.02762        0.3863
+  2         0.821          0.5574
+  3         3.314          0.04203
+  4         27.62          0.01421
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -9367.5973 (s.e. 186.1808)
+Unconstrained log-likelihood (without tree): -12946.1973
+Number of free parameters (#branches + #model parameters): 195
+Akaike information criterion (AIC) score: 19125.1946
+Corrected Akaike information criterion (AICc) score: 19157.7777
+Bayesian information criterion (BIC) score: 20264.1324
+
+Total tree length (sum of branch lengths): 1.3110
+Sum of internal branch lengths: 0.4364 (33.2848% of tree length)
+
+WARNING: 43 near-zero internal branches (<0.0004) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'HM585496_Human_herpesvirus_1' is drawn at root
+
++**HM585496_Human_herpesvirus_1
+|
+|                       +--HM585497_Human_herpesvirus_1
+|                    +--|
+|                    |  +--KM222720_Human_herpesvirus_1
+|                 +**|
+|                 |  |                             +**HM585498_Human_herpesvirus_1
+|                 |  |                          +--|
+|                 |  |                          |  +**HM585511_Human_herpesvirus_1
+|                 |  |                       +**|
+|                 |  |                       |  +--HM585501_Human_herpesvirus_1
+|                 |  |                    +--|
+|                 |  |                    |  |  +--JN420337_Human_herpesvirus_1
+|                 |  |                    |  +--|
+|                 |  |                    |     +**JN420339_Human_herpesvirus_1
+|                 |  |                 +--|
+|                 |  |                 |  |  +--HM585502_Human_herpesvirus_1
+|                 |  |                 |  +--|
+|                 |  |                 |     |  +--HM585509_Human_herpesvirus_1
+|                 |  |                 |     +--|
+|                 |  |                 |        +--JN420341_Human_herpesvirus_1
+|                 |  |              +**|
+|                 |  |              |  |  +**KM222721_Human_herpesvirus_1
+|                 |  |              |  +--|
+|                 |  |              |     +**KM222722_Human_herpesvirus_1
+|                 |  |           +**|
+|                 |  |           |  |  +--KF498959_Human_herpesvirus_1
+|                 |  |           |  +**|
+|                 |  |           |     +--KM222726_Human_herpesvirus_1
+|                 |  |        +**|
+|                 |  |        |  +--KJ847330_Human_herpesvirus_1
+|                 |  |     +--|
+|                 |  |     |  +--HM585508_Human_herpesvirus_1
+|                 |  |  +**|
+|                 |  |  |  |     +**HM585514_Human_herpesvirus_1
+|                 |  |  |  |  +--|
+|                 |  |  |  |  |  +--KM222727_Human_herpesvirus_1
+|                 |  |  |  +--|
+|                 |  |  |     |                                             +--HSV2_1
+|                 |  |  |     |                                          +**|
+|                 |  |  |     |                                          |  +--HSV2_2
+|                 |  |  |     |                                       +--|
+|                 |  |  |     |                                       |  |        +--HSV2_3
+|                 |  |  |     |                                       |  |     +--|
+|                 |  |  |     |                                       |  |     |  +**HSV2_6
+|                 |  |  |     |                                       |  |  +**|
+|                 |  |  |     |                                       |  |  |  +**HSV2_9
+|                 |  |  |     |                                       |  +**|
+|                 |  |  |     |                                       |     |  +--HSV2_5
+|                 |  |  |     |                                       |     +**|
+|                 |  |  |     |                                       |        +--HSV2_8
+|                 |  |  |     |                                    +**|
+|                 |  |  |     |                                    |  +**HSV2_7
+|                 |  |  |     |                                 +**|
+|                 |  |  |     |                                 |  +--HSV2_18
+|                 |  |  |     |                              +**|
+|                 |  |  |     |                              |  +**HSV2_16
+|                 |  |  |     |                           +--|
+|                 |  |  |     |                           |  +**HSV2_12
+|                 |  |  |     |                        +--|
+|                 |  |  |     |                        |  |                                                        +**HSV2_4
+|                 |  |  |     |                        |  |                                                     +**|
+|                 |  |  |     |                        |  |                                                     |  |  +**KR135307_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                                                     |  +**|
+|                 |  |  |     |                        |  |                                                     |     +**KR135319_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                                                  +--|
+|                 |  |  |     |                        |  |                                                  |  +--HSV2_10
+|                 |  |  |     |                        |  |                                               +**|
+|                 |  |  |     |                        |  |                                               |  |  +**KR135303_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                                               |  +**|
+|                 |  |  |     |                        |  |                                               |     +**KR135316_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                                            +--|
+|                 |  |  |     |                        |  |                                            |  +--KR135318_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                                         +**|
+|                 |  |  |     |                        |  |                                         |  +--KR135323_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                                      +**|
+|                 |  |  |     |                        |  |                                      |  +**KR135306_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                                   +--|
+|                 |  |  |     |                        |  |                                   |  +--KR135301_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                                +**|
+|                 |  |  |     |                        |  |                                |  |        +**KR135324_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                                |  |     +**|
+|                 |  |  |     |                        |  |                                |  |     |  +**KR135327_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                                |  |  +**|
+|                 |  |  |     |                        |  |                                |  |  |  +--KR135329_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                                |  +--|
+|                 |  |  |     |                        |  |                                |     +--KR135326_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                             +**|
+|                 |  |  |     |                        |  |                             |  |  +--KR135304_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                             |  +**|
+|                 |  |  |     |                        |  |                             |     |     +--KR135314_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                             |     |  +--|
+|                 |  |  |     |                        |  |                             |     |  |  |     +**KR135320_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                             |     |  |  |  +--|
+|                 |  |  |     |                        |  |                             |     |  |  |  |  +**KR135321_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                             |     |  |  +--|
+|                 |  |  |     |                        |  |                             |     |  |     +**KR135325_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                             |     +**|
+|                 |  |  |     |                        |  |                             |        +--KR135328_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                          +--|
+|                 |  |  |     |                        |  |                          |  |  +--KR135310_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                          |  +--|
+|                 |  |  |     |                        |  |                          |     +--KR135315_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                       +**|
+|                 |  |  |     |                        |  |                       |  |     +**KP192856_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                       |  |  +--|
+|                 |  |  |     |                        |  |                       |  |  |  +**KP334094_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                       |  +--|
+|                 |  |  |     |                        |  |                       |     |  +**KP334093_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                       |     +**|
+|                 |  |  |     |                        |  |                       |        +**KP334096_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                    +--|
+|                 |  |  |     |                        |  |                    |  |     +**HSV2_15
+|                 |  |  |     |                        |  |                    |  |  +**|
+|                 |  |  |     |                        |  |                    |  |  |  +--KR135330_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                    |  +**|
+|                 |  |  |     |                        |  |                    |     +**NC_001798_Human_herpesvirus_2
+|                 |  |  |     |                        |  |                 +**|
+|                 |  |  |     |                        |  |                 |  +**HSV2_14
+|                 |  |  |     |                        |  |              +--|
+|                 |  |  |     |                        |  |              |  |     +--HSV2_17
+|                 |  |  |     |                        |  |              |  |  +--|
+|                 |  |  |     |                        |  |              |  |  |  +**KR135298_Human_herpesvirus_2
+|                 |  |  |     |                        |  |              |  +**|
+|                 |  |  |     |                        |  |              |     |  +--KP334095_Human_herpesvirus_2
+|                 |  |  |     |                        |  |              |     +**|
+|                 |  |  |     |                        |  |              |        +--KR135322_Human_herpesvirus_2
+|                 |  |  |     |                        |  |           +--|
+|                 |  |  |     |                        |  |           |  +--KR135311_Human_herpesvirus_2
+|                 |  |  |     |                        |  |        +**|
+|                 |  |  |     |                        |  |        |  |  +**KR135299_Human_herpesvirus_2
+|                 |  |  |     |                        |  |        |  +**|
+|                 |  |  |     |                        |  |        |     +**KR135300_Human_herpesvirus_2
+|                 |  |  |     |                        |  |     +--|
+|                 |  |  |     |                        |  |     |  |        +--KF781518_Human_herpesvirus_2
+|                 |  |  |     |                        |  |     |  |     +**|
+|                 |  |  |     |                        |  |     |  |     |  +--KR135308_Human_herpesvirus_2
+|                 |  |  |     |                        |  |     |  |  +**|
+|                 |  |  |     |                        |  |     |  |  |  +**KR135305_Human_herpesvirus_2
+|                 |  |  |     |                        |  |     |  +--|
+|                 |  |  |     |                        |  |     |     +--KR135309_Human_herpesvirus_2
+|                 |  |  |     |                        |  |  +**|
+|                 |  |  |     |                        |  |  |  |  +**HSV2_11
+|                 |  |  |     |                        |  |  |  +--|
+|                 |  |  |     |                        |  |  |     +**KR135302_Human_herpesvirus_2
+|                 |  |  |     |                        |  +--|
+|                 |  |  |     |                        |     +--HSV2_13
+|                 |  |  |     |             +----------|
+|                 |  |  |     |             |          +--JQ360576_Chimpanzee_alpha-1_herpesvirus
+|                 |  |  |     |  +----------|
+|                 |  |  |     |  |          +-----------------------------------------------NC_006560_Cercopithecine_herpesvirus_2
+|                 |  |  |     +--|
+|                 |  |  |        |  +--JN400093_Human_herpesvirus_1
+|                 |  |  |        +--|
+|                 |  |  |           +--JN420338_Human_herpesvirus_1
+|                 |  +--|
+|                 |     +--HM585510_Human_herpesvirus_1
+|              +--|
+|              |  |        +**HM585512_Human_herpesvirus_1
+|              |  |     +**|
+|              |  |     |  +**HM585515_Human_herpesvirus_1
+|              |  |  +--|
+|              |  |  |  +**HM585513_Human_herpesvirus_1
+|              |  +--|
+|              |     +--JN420342_Human_herpesvirus_1
+|           +--|
+|           |  +**NC_001806_Human_herpesvirus_1
+|        +--|
+|        |  |     +**JQ730035_Human_herpesvirus_1
+|        |  |  +--|
+|        |  |  |  +**JX142173_Human_herpesvirus_1
+|        |  +--|
+|        |     |  +**KM222724_Human_herpesvirus_1
+|        |     +**|
+|        |        +**KM222725_Human_herpesvirus_1
+|     +**|
+|     |  +--JN420340_Human_herpesvirus_1
+|  +**|
+|  |  |  +**HM585499_Human_herpesvirus_1
+|  |  +**|
+|  |     +**HM585500_Human_herpesvirus_1
++--|
+|  |  +**HM585503_Human_herpesvirus_1
+|  +--|
+|     +**HM585505_Human_herpesvirus_1
+|
++**HM585504_Human_herpesvirus_1
+
+Tree in newick format:
+
+(HM585496_Human_herpesvirus_1:0.0000010101,((((((((HM585497_Human_herpesvirus_1:0.0008446021,KM222720_Human_herpesvirus_1:0.0041806027):0.0015749025,((((((((((HM585498_Human_herpesvirus_1:0.0000010101,HM585511_Human_herpesvirus_1:0.0000010101):0.0012450997,HM585501_Human_herpesvirus_1:0.0016613724):0.0003641091,(JN420337_Human_herpesvirus_1:0.0016037873,JN420339_Human_herpesvirus_1:0.0000010101):0.0004044562):0.0006354759,(HM585502_Human_herpesvirus_1:0.0021847018,(HM585509_Human_herpesvirus_1:0.0051051255,JN420341_Human_herpesvirus_1:0.0029799145):0.0017887851):0.0008147330):0.0009761403,(KM222721_Human_herpesvirus_1:0.0000010101,KM222722_Human_herpesvirus_1:0.0000010101):0.0011995374):0.0000010101,(KF498959_Human_herpesvirus_1:0.0015954845,KM222726_Human_herpesvirus_1:0.0003956242):0.0000010101):0.0000010101,KJ847330_Human_herpesvirus_1:0.0003960869):0.0000010101,HM585508_Human_herpesvirus_1:0.0007938853):0.0003971124,((HM585514_Human_herpesvirus_1:0.0003917505,KM222727_Human_herpesvirus_1:0.0007853453):0.0005230898,((((((((((HSV2_1:0.0005247615,HSV2_2:0.0005138383):0.0000024381,(((HSV2_3:0.0005146972,HSV2_6:0.0000010101):0.0005122631,HSV2_9:0.0000010101):0.0000022773,(HSV2_5:0.0010566697,HSV2_8:0.0072611346):0.0000010101):0.0000010101):0.0004835022,HSV2_7:0.0000010101):0.0000010101,HSV2_18:0.0010144684):0.0000010101,HSV2_16:0.0000010101):0.0000023389,HSV2_12:0.0000010101):0.0023068145,(((((((((((((((((((HSV2_4:0.0000010101,(KR135307_Human_herpesvirus_2:0.0000010101,KR135319_Human_herpesvirus_2:0.0000010101):0.0000010101):0.0000010101,HSV2_10:0.0005086332):0.0004130830,(KR135303_Human_herpesvirus_2:0.0000010101,KR135316_Human_herpesvirus_2:0.0000010101):0.0000010101):0.0000023065,KR135318_Human_herpesvirus_2:0.0004121978):0.0004148637,KR135323_Human_herpesvirus_2:0.0008265197):0.0000022243,KR135306_Human_herpesvirus_2:0.0000010101):0.0000010101,KR135301_Human_herpesvirus_2:0.0012516868):0.0004148528,(((KR135324_Human_herpesvirus_2:0.0000010101,KR135327_Human_herpesvirus_2:0.0000010101):0.0000010101,KR135329_Human_herpesvirus_2:0.0004125217):0.0000010101,KR135326_Human_herpesvirus_2:0.0004117523):0.0004133610):0.0000010101,(KR135304_Human_herpesvirus_2:0.0004131790,((KR135314_Human_herpesvirus_2:0.0008270862,((KR135320_Human_herpesvirus_2:0.0000010101,KR135321_Human_herpesvirus_2:0.0000010101):0.0008291670,KR135325_Human_herpesvirus_2:0.0000010101):0.0004141382):0.0004149270,KR135328_Human_herpesvirus_2:0.0008270196):0.0000010101):0.0000010101):0.0000010101,(KR135310_Human_herpesvirus_2:0.0004180223,KR135315_Human_herpesvirus_2:0.0004098727):0.0004175718):0.0008325601,((KP192856_Human_herpesvirus_2:0.0000010101,KP334094_Human_herpesvirus_2:0.0000010101):0.0004094944,(KP334093_Human_herpesvirus_2:0.0000010101,KP334096_Human_herpesvirus_2:0.0000010101):0.0000010101):0.0004110636):0.0000010101,((HSV2_15:0.0000010101,KR135330_Human_herpesvirus_2:0.0012469871):0.0000010101,NC_001798_Human_herpesvirus_2:0.0000010101):0.0000010101):0.0004086762,HSV2_14:0.0000010101):0.0000025712,((HSV2_17:0.0013156018,KR135298_Human_herpesvirus_2:0.0000025703):0.0004103330,(KP334095_Human_herpesvirus_2:0.0020758474,KR135322_Human_herpesvirus_2:0.0012447964):0.0000010101):0.0000026554):0.0004121214,KR135311_Human_herpesvirus_2:0.0004120112):0.0004121161,(KR135299_Human_herpesvirus_2:0.0000010101,KR135300_Human_herpesvirus_2:0.0000010101):0.0000010101):0.0000010101,(((KF781518_Human_herpesvirus_2:0.0004090641,KR135308_Human_herpesvirus_2:0.0004080905):0.0000010101,KR135305_Human_herpesvirus_2:0.0000010101):0.0000010101,KR135309_Human_herpesvirus_2:0.0004077376):0.0004088021):0.0008248041,(HSV2_11:0.0000010101,KR135302_Human_herpesvirus_2:0.0000010178):0.0012511188):0.0000010101,HSV2_13:0.0005095146):0.0011853620):0.0430379992,JQ360576_Chimpanzee_alpha-1_herpesvirus:0.0426581772):0.1765410661,NC_006560_Cercopithecine_herpesvirus_2:0.7656599114):0.1821537528,(JN400093_Human_herpesvirus_1:0.0029666615,JN420338_Human_herpesvirus_1:0.0010288088):0.0013204011):0.0015236907):0.0014974105):0.0003870623,HM585510_Human_herpesvirus_1:0.0012112705):0.0004064965):0.0000010101,(((HM585512_Human_herpesvirus_1:0.0003865159,HM585515_Human_herpesvirus_1:0.0003863620):0.0000010101,HM585513_Human_herpesvirus_1:0.0003861431):0.0048556074,JN420342_Human_herpesvirus_1:0.0007985949):0.0004004886):0.0003958546,NC_001806_Human_herpesvirus_1:0.0000010101):0.0012172901,((JQ730035_Human_herpesvirus_1:0.0000010101,JX142173_Human_herpesvirus_1:0.0003916910):0.0011796909,(KM222724_Human_herpesvirus_1:0.0000010101,KM222725_Human_herpesvirus_1:0.0003914326):0.0000010101):0.0016080763):0.0016027425,JN420340_Human_herpesvirus_1:0.0032838040):0.0000010101,(HM585499_Human_herpesvirus_1:0.0000010101,HM585500_Human_herpesvirus_1:0.0000010101):0.0000010101):0.0000010101,(HM585503_Human_herpesvirus_1:0.0000010101,HM585505_Human_herpesvirus_1:0.0000010101):0.0003967356):0.0003966318,HM585504_Human_herpesvirus_1:0.0000010101);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t iqtree_output_50/aln_segment_58467_to_61008.treefile -m "HKY{2.88591}+F{0.160246,0.346852,0.333144,0.159758}+R4{0.386335,0.0276211,0.557426,0.820989,0.0420327,3.31384,0.0142065,27.6211}" --length 2542
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s iqtree_output_50/aln_segment_58467_to_61008.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s iqtree_output_50/aln_segment_58467_to_61008.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Oct 29 19:37:27 2025
+Total CPU time used: 396.366 seconds (0h:6m:36s)
+Total wall-clock time used: 203.959 seconds (0h:3m:23s)
+
