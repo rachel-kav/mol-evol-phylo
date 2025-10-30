@@ -1,0 +1,41 @@
+# Concordance factor statistics
+# This file can be read in MS Excel or in R with command:
+#   tab=read.table('iqtree_output_africa_scf/aln_segment_142409_to_142412_scf.cf.stat',header=TRUE)
+# Columns are tab-separated with following meaning:
+#   ID: Branch ID
+#   sCF: Site concordance factor averaged over 100 quartets (=sCF_N/sN %)
+#   sCF_N: sCF in absolute number of sites
+#   sDF1: Site discordance factor for alternative quartet 1 (=sDF1_N/sN %)
+#   sDF1_N: sDF1 in absolute number of sites
+#   sDF2: Site discordance factor for alternative quartet 2 (=sDF2_N/sN %)
+#   sDF2_N: sDF2 in absolute number of sites
+#   sN: Number of informative sites averaged over 100 quartets
+#   Label: Existing branch label
+#   Length: Branch length
+ID	sCF	sCF_N	sDF1	sDF1_N	sDF2	sDF2_N	sN	Label	Length
+30	0	0	0	0	0	0	0		0
+31	0	0	0	0	0	0	0		0
+32	0	0	0	0	0	0	0		0
+33	0	0	0	0	0	0	0		0
+34	0	0	0	0	0	0	0		0
+35	0	0	0	0	0	0	0		0
+36	0	0	0	0	0	0	0		0
+37	0	0	0	0	0	0	0		0
+38	0	0	0	0	0	0	0		0
+39	0	0	0	0	0	0	0		0
+40	0	0	0	0	0	0	0		0
+41	0	0	0	0	0	0	0		0
+42	0	0	0	0	0	0	0		0
+43	0	0	0	0	0	0	0		0
+44	0	0	0	0	0	0	0		0
+45	0	0	0	0	0	0	0		0
+46	0	0	0	0	0	0	0		0
+47	0	0	0	0	0	0	0		0
+48	0	0	0	0	0	0	0		0
+49	0	0	0	0	0	0	0		0
+50	0	0	0	0	0	0	0		0
+51	0	0	0	0	0	0	0		0
+52	0	0	0	0	0	0	0		0
+53	0	0	0	0	0	0	0		0
+54	0	0	0	0	0	0	0		0
+55	0	0	0	0	0	0	0		1e-06

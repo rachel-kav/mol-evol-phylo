@@ -1,0 +1,41 @@
+# Concordance factor statistics
+# This file can be read in MS Excel or in R with command:
+#   tab=read.table('iqtree_output_africa_scf/aln_segment_61033_to_71204_scf.cf.stat',header=TRUE)
+# Columns are tab-separated with following meaning:
+#   ID: Branch ID
+#   sCF: Site concordance factor averaged over 100 quartets (=sCF_N/sN %)
+#   sCF_N: sCF in absolute number of sites
+#   sDF1: Site discordance factor for alternative quartet 1 (=sDF1_N/sN %)
+#   sDF1_N: sDF1 in absolute number of sites
+#   sDF2: Site discordance factor for alternative quartet 2 (=sDF2_N/sN %)
+#   sDF2_N: sDF2 in absolute number of sites
+#   sN: Number of informative sites averaged over 100 quartets
+#   Label: Existing branch label
+#   Length: Branch length
+ID	sCF	sCF_N	sDF1	sDF1_N	sDF2	sDF2_N	sN	Label	Length
+30	27.27	1	18.27	0.98	54.47	2.66	4.64		0.00010696
+31	89.89	16.72	10.11	1.86	0	0	18.58		0.00210463
+32	48.73	7.71	35.49	5.7	15.78	2.42	15.83		0.00104243
+33	64.35	12.1	15.5	2.96	20.15	3.74	18.8		0.0013016
+34	48.55	4.18	38.25	3.25	13.19	1.14	8.57		0.000660084
+35	92.14	8.71	2.22	0.21	5.64	0.47	9.39		0.00108156
+36	39.85	5.74	30.39	4.49	29.76	4.29	14.52		0.000365109
+37	57.33	12.17	15.14	3.4	27.53	5.81	21.38		0.00162552
+38	99.95	1602.17	0.04	0.57	0.01	0.16	1602.9		0.499032
+39	40.93	1.59	35.44	1.37	23.63	1.1	4.06		0.000147944
+40	73.79	2.29	12	0.53	14.21	0.62	3.44		0.000203604
+41	43.1	1.44	17.23	0.64	39.67	1.37	3.45		0.000208879
+42	49.9	2.39	12.29	0.61	37.81	2.16	5.16		0.000208172
+43	21.65	0.8	5.4	0.24	72.95	2.36	3.4		9.93293e-05
+44	41.66	1.86	47.62	2.01	10.72	0.58	4.45		6.1832e-05
+45	72.12	2.84	18.51	0.92	9.37	0.47	4.23		0.000204169
+46	40.42	0.87	9.28	0.27	50.3	0.99	2.13		0.000103217
+47	49.17	0.86	17.5	0.37	1.33	0.05	1.28		1.0101e-06
+48	97.67	1.78	2.33	0.07	0	0	1.85		0.000206329
+49	0.33	0.01	73.67	0.82	0	0	0.83		1.0101e-06
+50	54.63	1.38	45.37	1.07	0	0	2.45		0.00010307
+51	100	3.26	0	0	0	0	3.26		0.000214295
+52	0	0	0	0	0	0	0		1.0101e-06
+53	0	0	0	0	0	0	0		1.0101e-06
+54	100	1	0	0	0	0	1		0.000106176
+55	0	0	0	0	0	0	0		1.0102e-06

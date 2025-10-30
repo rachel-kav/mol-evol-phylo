@@ -1,0 +1,41 @@
+# Concordance factor statistics
+# This file can be read in MS Excel or in R with command:
+#   tab=read.table('iqtree_output_africa_scf/aln_segment_101721_to_111892_scf.cf.stat',header=TRUE)
+# Columns are tab-separated with following meaning:
+#   ID: Branch ID
+#   sCF: Site concordance factor averaged over 100 quartets (=sCF_N/sN %)
+#   sCF_N: sCF in absolute number of sites
+#   sDF1: Site discordance factor for alternative quartet 1 (=sDF1_N/sN %)
+#   sDF1_N: sDF1 in absolute number of sites
+#   sDF2: Site discordance factor for alternative quartet 2 (=sDF2_N/sN %)
+#   sDF2_N: sDF2 in absolute number of sites
+#   sN: Number of informative sites averaged over 100 quartets
+#   Label: Existing branch label
+#   Length: Branch length
+ID	sCF	sCF_N	sDF1	sDF1_N	sDF2	sDF2_N	sN	Label	Length
+30	88.34	10.55	0	0	11.66	1.01	11.56		0.00211122
+31	18.12	1.59	33.91	3.23	47.97	4.59	9.41		0.000161972
+32	88.32	41.87	6.43	3.45	5.25	2.38	47.7		0.00530721
+33	42.13	17.16	31.75	12.82	26.12	10.64	40.62		0.00341347
+34	72.46	21.67	12.03	3.58	15.51	4.63	29.88		0.000458092
+35	40.15	8.63	37.75	8.16	22.1	4.53	21.32		0.000748567
+36	41.01	9.25	33.34	7.08	25.65	5.56	21.89		0.00070723
+37	100	26.21	0	0	0	0	26.21		0.00331724
+38	44.09	10.67	35.15	9.12	20.76	4.58	24.37		0.0014726
+39	99.99	2003.68	0.01	0.13	0	0.03	2003.84		0.734903
+40	34.2	2.71	13.98	1.21	51.81	4.4	8.32		0.000441288
+41	30.91	3.76	49.09	6.52	20	2.66	12.94		0.000646753
+42	53.75	6.68	23.73	2.67	22.53	2.71	12.06		0.000335118
+43	39.34	3.19	34.52	2.8	26.14	2.35	8.34		0.000131358
+44	88.13	3.97	11.87	0.61	0	0	4.58		0.000315793
+45	32.29	2.44	32.53	2.52	35.17	2.79	7.75		0.000213107
+46	54.44	3.07	18.17	1.33	27.39	1.61	6.01		0.000363389
+47	55.67	2.8	4.04	0.24	40.29	2.34	5.38		0.000304069
+48	100	4.44	0	0	0	0	4.44		0.000795531
+49	100	3.97	0	0	0	0	3.97		0.000394565
+50	66.9	11.34	23.83	3.98	9.27	1.55	16.87		0.00182057
+51	47.83	3.44	28.96	1.9	23.21	1.24	6.58		2.9917e-06
+52	98.43	8.2	1.57	0.11	0	0	8.31		0.000975813
+53	58.17	0.92	0	0	41.83	1.01	1.93		5.85954e-05
+54	100	2.23	0	0	0	0	2.23		0.000397809
+55	0	0	0	0	0	0	0		1.011e-06

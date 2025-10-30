@@ -1,0 +1,41 @@
+# Concordance factor statistics
+# This file can be read in MS Excel or in R with command:
+#   tab=read.table('iqtree_output_africa_scf/aln_segment_50861_to_61032_scf.cf.stat',header=TRUE)
+# Columns are tab-separated with following meaning:
+#   ID: Branch ID
+#   sCF: Site concordance factor averaged over 100 quartets (=sCF_N/sN %)
+#   sCF_N: sCF in absolute number of sites
+#   sDF1: Site discordance factor for alternative quartet 1 (=sDF1_N/sN %)
+#   sDF1_N: sDF1 in absolute number of sites
+#   sDF2: Site discordance factor for alternative quartet 2 (=sDF2_N/sN %)
+#   sDF2_N: sDF2 in absolute number of sites
+#   sN: Number of informative sites averaged over 100 quartets
+#   Label: Existing branch label
+#   Length: Branch length
+ID	sCF	sCF_N	sDF1	sDF1_N	sDF2	sDF2_N	sN	Label	Length
+30	88.5	6.81	0	0	11.5	0.69	7.5		0.0012398
+31	68.84	13.35	21.38	4.13	9.78	1.81	19.29		0.00115098
+32	59.35	8.99	22.5	3.78	18.15	2.64	15.41		0.000902816
+33	34.91	3.66	42.58	5.76	22.51	2.41	11.83		0.000211501
+34	100	20.59	0	0	0	0	20.59		0.00186568
+35	56.54	10.46	28.38	5.06	15.08	2.89	18.41		0.000444709
+36	44.74	8.45	13.63	2.62	41.62	8.05	19.12		0.00174562
+37	100	1245.24	0	0	0	0	1245.24		0.291697
+38	30.05	2.42	26.53	2.25	43.42	3.52	8.19		2.7018e-06
+39	56.76	7.54	23.39	3.2	19.85	2.86	13.6		0.000823156
+40	30.39	1.43	2.4	0.13	67.21	3.84	5.4		0.000120772
+41	28.74	1.47	10.82	0.65	60.44	3.75	5.87		1.0065e-06
+42	41.79	3.21	44.66	3.51	13.55	1.19	7.91		0.000517486
+43	56.7	3.53	16.96	1.06	26.34	1.77	6.36		0.000298935
+44	40.17	2.33	27.49	1.78	32.34	2.14	6.25		0.000225446
+45	72.57	6.88	25.22	2.41	2.21	0.21	9.5		0.000837447
+46	100	7.77	0	0	0	0	7.77		0.000710939
+47	55.06	4.39	17.21	0.76	26.73	1.96	7.11		8.16223e-05
+48	84.49	5.73	10.09	0.64	5.43	0.35	6.72		0.000408786
+49	94	1.73	0	0	0	0	1.73		8.06552e-05
+50	67.54	18.75	11.73	3.29	20.72	5.69	27.73		0.00300467
+51	64	0.64	0	0	0	0	0.64		1.0065e-06
+52	100	1	0	0	0	0	1		9.69492e-05
+53	0	0	0	0	0	0	0		1.0065e-06
+54	0	0	0	0	0	0	0		1.0065e-06
+55	0	0	0	0	0	0	0		0

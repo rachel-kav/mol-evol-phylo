@@ -1,0 +1,41 @@
+# Concordance factor statistics
+# This file can be read in MS Excel or in R with command:
+#   tab=read.table('iqtree_output_africa_scf/aln_segment_91549_to_101720_scf.cf.stat',header=TRUE)
+# Columns are tab-separated with following meaning:
+#   ID: Branch ID
+#   sCF: Site concordance factor averaged over 100 quartets (=sCF_N/sN %)
+#   sCF_N: sCF in absolute number of sites
+#   sDF1: Site discordance factor for alternative quartet 1 (=sDF1_N/sN %)
+#   sDF1_N: sDF1 in absolute number of sites
+#   sDF2: Site discordance factor for alternative quartet 2 (=sDF2_N/sN %)
+#   sDF2_N: sDF2 in absolute number of sites
+#   sN: Number of informative sites averaged over 100 quartets
+#   Label: Existing branch label
+#   Length: Branch length
+ID	sCF	sCF_N	sDF1	sDF1_N	sDF2	sDF2_N	sN	Label	Length
+30	0	0	54	0.54	0	0	0.54		2.0793e-06
+31	0	0	0	0	35	0.35	0.35		2.2386e-06
+32	99.13	21.13	0.87	0.16	0	0	21.29		0.00326835
+33	64.9	23.89	19.08	6.86	16.02	5.65	36.4		0.00410482
+34	33.23	8.37	25.22	6.75	41.55	10.02	25.14		0.000816556
+35	35.21	10.06	43.86	12.51	20.94	5.85	28.42		0.0008581
+36	100	30.59	0	0	0	0	30.59		0.00389853
+37	28.06	8.29	42.78	13.05	29.16	8.66	30		0.000641319
+38	100	2032.91	0	0	0	0.05	2032.96		0.875074
+39	53.19	4.92	25.95	2.63	20.86	1.87	9.42		0.000647286
+40	45.3	4.81	35.07	3.59	19.63	1.94	10.34		0.000427596
+41	62.06	6.08	15.35	1.41	22.59	2.2	9.69		0.000209334
+42	36.64	1.82	18.45	1.14	44.91	2.45	5.41		0.000207263
+43	76.27	2.62	20.73	0.69	0	0	3.31		0.000262604
+44	50.28	2.27	49.72	2.22	0	0	4.49		0.000158599
+45	95	2.18	0	0	0	0	2.18		2.35e-06
+46	100	1.88	0	0	0	0	1.88		0.000312971
+47	31.98	2.94	24.85	2.29	43.16	3.97	9.2		0.000407303
+48	61.41	6.28	21.69	2.37	16.9	1.67	10.32		0.000698935
+49	32.25	3.08	25.8	2.59	41.95	4.35	10.02		0.000113254
+50	31.76	2.46	49.2	4.59	19.04	1.66	8.71		0.000159188
+51	44.48	14.84	31.11	10.51	24.4	7.86	33.21		0.0010594
+52	100	1.41	0	0	0	0	1.41		0.000200718
+53	0	0	0	0	0	0	0		1e-06
+54	34	0.34	0	0	0	0	0.34		2.0033e-06
+55	100	2	0	0	0	0	2		0.000201007

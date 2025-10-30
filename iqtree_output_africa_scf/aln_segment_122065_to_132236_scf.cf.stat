@@ -1,0 +1,41 @@
+# Concordance factor statistics
+# This file can be read in MS Excel or in R with command:
+#   tab=read.table('iqtree_output_africa_scf/aln_segment_122065_to_132236_scf.cf.stat',header=TRUE)
+# Columns are tab-separated with following meaning:
+#   ID: Branch ID
+#   sCF: Site concordance factor averaged over 100 quartets (=sCF_N/sN %)
+#   sCF_N: sCF in absolute number of sites
+#   sDF1: Site discordance factor for alternative quartet 1 (=sDF1_N/sN %)
+#   sDF1_N: sDF1 in absolute number of sites
+#   sDF2: Site discordance factor for alternative quartet 2 (=sDF2_N/sN %)
+#   sDF2_N: sDF2 in absolute number of sites
+#   sN: Number of informative sites averaged over 100 quartets
+#   Label: Existing branch label
+#   Length: Branch length
+ID	sCF	sCF_N	sDF1	sDF1_N	sDF2	sDF2_N	sN	Label	Length
+30	98.83	52.73	0.83	0.46	0.34	0.19	53.38		0.00633298
+31	35.8	19.44	18.09	10	46.1	25.8	55.24		0.00304275
+32	47.62	25.02	26.46	13.74	25.92	13.51	52.27		0.0025586
+33	46.32	19.44	17.31	7.16	36.37	15.96	42.56		0.00187978
+34	55.34	19.8	20.42	5.51	24.25	8.62	33.93		0.000791214
+35	97.61	23.98	2.39	0.56	0	0	24.54		0.00365609
+36	60	0.6	0	0	0	0	0.6		1.0162e-06
+37	100	34.67	0	0	0	0	34.67		0.00494362
+38	26.63	12.05	30.67	14.06	42.7	19.81	45.92		0.00109737
+39	20.03	6.95	62.17	22.1	17.8	5.94	34.99		0.000710104
+40	100	2309.56	0	0	0	0	2309.56		1.27091
+41	56.16	8.9	18.18	3.07	25.66	4.26	16.23		0.00214394
+42	24.11	2.3	15.58	1.54	60.3	5.98	9.82		0.000403188
+43	31.71	3.14	10.23	1.01	58.06	5.51	9.66		0.000656281
+44	27.61	2.36	32.48	2.47	39.91	3.08	7.91		0.000284136
+45	30.36	3.32	36.48	4.27	33.16	3.9	11.49		0.000128728
+46	33.54	3.35	28.69	2.57	37.77	3.75	9.67		0.000433289
+47	73.34	7.14	8.15	0.78	18.5	1.88	9.8		0.00115809
+48	67.79	6.85	17	1.77	15.22	1.58	10.2		0.000152634
+49	53.29	2.65	40.91	2.23	5.81	0.19	5.07		0.000181292
+50	30.52	1.43	25.83	1.2	43.65	1.53	4.16		0.000442252
+51	59.48	6.68	33.08	3.41	7.44	0.99	11.08		0.00108906
+52	80.45	5.01	1.81	0.1	17.75	0.95	6.06		0.000865532
+53	45	0.45	6	0.06	24	0.24	0.75		1.0162e-06
+54	42.67	0.9	57.33	1.17	0	0	2.07		0.000201925
+55	71	1.37	0	0	0	0	1.37		1.0162e-06

@@ -1,0 +1,86 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: trim_genome_africa.fasta
+User tree file name: iqtree_output_africa/trim_trees.newick
+Type of analysis: tree reconstruction
+Random seed number: 79654
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 29 sequences with 142412 nucleotide sites
+Number of constant sites: 112206 (= 78.7897% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 112206 (= 78.7897% of all sites)
+Number of parsimony informative sites: 28695
+Number of distinct site patterns: 3564
+
+SUBSTITUTION PROCESS
+--------------------
+
+Linked Model of substitution: GTR+FO+R2
+
+Rate parameter R:
+
+  A-C: 0.9876
+  A-G: 2.6071
+  A-T: 0.1845
+  C-G: 0.4463
+  C-T: 2.8446
+  G-T: 1.0000
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.1567
+  pi(C) = 0.3414
+  pi(G) = 0.3467
+  pi(T) = 0.1553
+
+Rate matrix Q:
+
+  A    -1.391    0.3694    0.9903   0.03139
+  C    0.1695    -0.823    0.1695     0.484
+  G    0.4475    0.1669   -0.7846    0.1701
+  T   0.03167     1.064    0.3798    -1.475
+
+Tree weights: 0.04653, 0.04049, 0.03409, 0.1789, 0.1236, 0.2602, 0.03934, 0.04039, 0.008444, 0.07515, 0.06122, 0.0215, 0.02636, 0.04363, 0.0001528
+
+Linked Model of rate heterogeneity: FreeRate with 2 categories
+Site proportion and rates:  (0.9056,0.0288) (0.09444,1.693)
+
+ Category  Relative_rate  Proportion
+  1         0.0288         0.9056
+  2         1.693          0.09444
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -332448.2468 (s.e. 805.1842)
+Unconstrained log-likelihood (without tree): -371165.2793
+Number of free parameters (#branches + #model parameters): 849
+Akaike information criterion (AIC) score: 666594.4936
+Corrected Akaike information criterion (AICc) score: 666604.6891
+Bayesian information criterion (BIC) score: 674971.1347
+
+Total tree lengths (sum of branch lengths): 1.3376 0.1203 2.8030 10.0114 0.0909 0.1139 1.7103 0.2257 0.3054 2.3187 0.1590 0.3787 2.5562 0.2070 23.7256
+Sum of internal branch lengths: 1.0300 (77.0038% of tree length) 0.0928 (77.1248% of tree length) 2.7523 (98.1908% of tree length) 10.0011 (99.8973% of tree length) 0.0789 (86.8184% of tree length) 0.1006 (88.2575% of tree length) 1.6974 (99.2502% of tree length) 0.1812 (80.2641% of tree length) 0.1676 (54.8858% of tree length) 2.3027 (99.3073% of tree length) 0.1306 (82.1267% of tree length) 0.2206 (58.2592% of tree length) 2.5365 (99.2285% of tree length) 0.1346 (65.0213% of tree length) 0.0001 (0.0002% of tree length)
+
+Trees with branch lengths are provided in the file: mast_africa_output/mast1.treefile
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct 30 11:57:01 2025
+Total CPU time used: 1.727e+04 seconds (4h:47m:52s)
+Total wall-clock time used: 2731 seconds (0h:45m:31s)
+

@@ -1,0 +1,63 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    ku-01 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree2 -s iqtree_output_africa/aln_segment_111893_to_122064.fasta -t iqtree_output_africa/aln_segment_111893_to_122064.treefile -m GTR+FO+R4 -nt 10 --scf 100 -pre iqtree_output_africa_scf/aln_segment_111893_to_122064_scf
+Seed:    940863 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct 30 12:05:43 2025
+Kernel:  AVX+FMA - 10 threads (64 CPU cores detected)
+
+Reading alignment file iqtree_output_africa/aln_segment_111893_to_122064.fasta ... Fasta format detected
+Reading fasta file: done in 0.00322459 secs using 65.74% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 29 sequences with 10172 columns, 869 distinct patterns
+2823 parsimony-informative, 232 singleton sites, 7117 constant sites
+                              Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.49358e-05 secs
+   1  HM585496_Human_herpesvirus_1    2.56%    failed      0.07%
+   2  HM585497_Human_herpesvirus_1    2.78%    failed      0.54%
+   3  HM585498_Human_herpesvirus_1    3.30%    failed      0.09%
+   4  HM585499_Human_herpesvirus_1    2.71%    failed      0.09%
+   5  HM585500_Human_herpesvirus_1    2.70%    failed      0.10%
+   6  HM585501_Human_herpesvirus_1    2.33%    failed      0.33%
+   7  HM585502_Human_herpesvirus_1    3.09%    failed      0.17%
+   8  HM585503_Human_herpesvirus_1    2.49%    failed      0.07%
+   9  HM585504_Human_herpesvirus_1    2.15%    failed      0.16%
+  10  HM585505_Human_herpesvirus_1    2.48%    failed      0.07%
+  11  HM585506_Human_herpesvirus_1    2.58%    failed      0.08%
+  12  HM585507_Human_herpesvirus_1    2.49%    failed      0.06%
+  13  HM585509_Human_herpesvirus_1    1.56%    failed      0.33%
+  14  HM585510_Human_herpesvirus_1    2.03%    failed      1.16%
+  15  HM585511_Human_herpesvirus_1    1.78%    failed      0.34%
+  16  KR135299_Human_herpesvirus_2   11.62%    failed      0.02%
+  17  KR135300_Human_herpesvirus_2   11.92%    failed      0.03%
+  18  KR135301_Human_herpesvirus_2   15.04%    failed      0.04%
+  19  KR135302_Human_herpesvirus_2   12.24%    failed      0.01%
+  20  KR135303_Human_herpesvirus_2   16.05%    failed      0.03%
+  21  KR135304_Human_herpesvirus_2   14.41%    failed      0.01%
+  22  KR135305_Human_herpesvirus_2   14.95%    failed      0.01%
+  23  KR135306_Human_herpesvirus_2   15.25%    failed      0.03%
+  24  KR135307_Human_herpesvirus_2   11.66%    failed      0.03%
+  25  KR135315_Human_herpesvirus_2   11.97%    failed      0.04%
+  26  KR135316_Human_herpesvirus_2   13.34%    failed      0.01%
+  27  KR135317_Human_herpesvirus_2   14.38%    failed      0.02%
+  28  KR135318_Human_herpesvirus_2   11.90%    failed      0.01%
+  29  KR135319_Human_herpesvirus_2   11.49%    failed      0.02%
+****  TOTAL                           7.70%  29 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading tree iqtree_output_africa/aln_segment_111893_to_122064.treefile ...
+un-rooted tree with 29 taxa and 55 branches
+Computing site concordance factor...
+0.008 sec
+Tree with concordance factors written to iqtree_output_africa_scf/aln_segment_111893_to_122064_scf.cf.tree
+Annotated tree (best viewed in FigTree) written to iqtree_output_africa_scf/aln_segment_111893_to_122064_scf.cf.tree.nex
+Tree with branch IDs written to iqtree_output_africa_scf/aln_segment_111893_to_122064_scf.cf.branch
+Concordance factors per branch printed to iqtree_output_africa_scf/aln_segment_111893_to_122064_scf.cf.stat
+WARNING: You probably want the --scfl option. The site concordance factor
+ implemented with the --scf option is based on parsimony (described here:
+ https://doi.org/10.1093/molbev/msaa106). It has since been superseded by a more
+ accurate likelihood-based approach which is implemented in the --scfl option, and
+ is described in the paper "Updated site concordance factors minimize effects of
+ homoplasy and taxon sampling" by Yu et al.. Please see the tutorial here for more
+ information: http://www.iqtree.org/doc/Concordance-Factor
+Date and Time: Thu Oct 30 12:05:43 2025

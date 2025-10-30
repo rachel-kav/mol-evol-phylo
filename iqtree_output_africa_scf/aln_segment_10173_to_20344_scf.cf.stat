@@ -1,0 +1,41 @@
+# Concordance factor statistics
+# This file can be read in MS Excel or in R with command:
+#   tab=read.table('iqtree_output_africa_scf/aln_segment_10173_to_20344_scf.cf.stat',header=TRUE)
+# Columns are tab-separated with following meaning:
+#   ID: Branch ID
+#   sCF: Site concordance factor averaged over 100 quartets (=sCF_N/sN %)
+#   sCF_N: sCF in absolute number of sites
+#   sDF1: Site discordance factor for alternative quartet 1 (=sDF1_N/sN %)
+#   sDF1_N: sDF1 in absolute number of sites
+#   sDF2: Site discordance factor for alternative quartet 2 (=sDF2_N/sN %)
+#   sDF2_N: sDF2 in absolute number of sites
+#   sN: Number of informative sites averaged over 100 quartets
+#   Label: Existing branch label
+#   Length: Branch length
+ID	sCF	sCF_N	sDF1	sDF1_N	sDF2	sDF2_N	sN	Label	Length
+30	0	0	0	0	0	0	0		1.0072e-06
+31	18	0.18	0	0	0	0	0.18		2.1952e-06
+32	97.27	24.59	2.73	0.71	0	0	25.3		0.00175289
+33	21.99	5.76	54.01	14.04	24	6.14	25.94		0.00174555
+34	43.14	11.2	29.89	7.73	26.98	7.11	26.04		0.00119252
+35	53.76	13.42	19.32	4.69	26.92	6.48	24.59		0.00149349
+36	46.01	11.04	33.56	8.04	20.43	4.97	24.05		0.00102848
+37	85.84	19.49	5.52	1.1	8.64	2.32	22.91		0.00198966
+38	42.88	12.17	7.41	2.1	49.71	14.2	28.47		0.00110775
+39	64.18	17	26.02	6.13	9.8	2.5	25.63		0.00147532
+40	100	1467.14	0	0	0	0	1467.14		0.490609
+41	42.06	5.14	23.53	2.98	34.41	4.15	12.27		0.000626936
+42	23.7	2.47	61.23	6.29	15.07	1.4	10.16		0.000233599
+43	54.5	5.47	26.81	2.65	18.7	1.87	9.99		0.000206884
+44	76.55	5.98	8.56	0.75	14.88	1.17	7.9		0.000668679
+45	50.58	3.48	9.37	0.9	40.05	2.76	7.14		0.000455666
+46	29.84	1.65	46.67	2.41	23.49	1.21	5.27		0.000388321
+47	39.33	4.9	30.21	4.14	30.46	3.17	12.21		0.000181624
+48	40.58	4.98	43.14	5.28	16.28	2.02	12.28		0.000398194
+49	74.28	6.88	25.05	2.42	0.67	0.03	9.33		0.000427054
+50	100	4.12	0	0	0	0	4.12		0.000199508
+51	100	10.44	0	0	0	0	10.44		0.00151179
+52	36.79	4.37	28.14	3.58	35.07	3.76	11.71		0.000311058
+53	86	0.86	0	0	0	0	0.86		0.000193616
+54	0	0	0	0	0	0	0		1.0072e-06
+55	100	3.5	0	0	0	0	3.5		0.000394089
