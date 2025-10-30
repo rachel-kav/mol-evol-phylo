@@ -1,0 +1,151 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    ku-01 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree2 -s iqtree_output_africa/aln_segment_142409_to_142412.fasta -m MFP -redo -nt 10 -fast -pre iqtree_output_africa/aln_segment_142409_to_142412
+Seed:    9949 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct 30 11:11:30 2025
+Kernel:  AVX+FMA - 10 threads (64 CPU cores detected)
+
+Reading alignment file iqtree_output_africa/aln_segment_142409_to_142412.fasta ... Fasta format detected
+Reading fasta file: done in 2.77534e-05 secs
+Alignment most likely contains DNA/RNA sequences
+Alignment has 29 sequences with 4 columns, 3 distinct patterns
+0 parsimony-informative, 0 singleton sites, 4 constant sites
+Analyzing sequences: done in 7.50367e-06 secs using 79.96% CPU
+WARNING: Your alignment contains too many identical sequences!
+NOTE: 26 identical sequences (see below) will be ignored for subsequent analysis
+Alignment was printed to iqtree_output_africa/aln_segment_142409_to_142412.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to iqtree_output_africa/aln_segment_142409_to_142412.uniqueseq.phy
+
+WARNING: 10 threads for alignment length 3 will slow down analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.00 seconds
+Perform fast likelihood tree search using GTR model...
+Estimate model parameters (epsilon = 5.00)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.00)
+1. Initial log-likelihood: -4.16
+Optimal log-likelihood: -4.16
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.500  G: 0.250  T: 0.000
+Warning! Some parameters hit the boundaries
+Parameters optimization took 1 rounds (0.000 sec)
+Time for fast ML tree search: 0.000 seconds
+
+NOTE: ModelFinder requires 0 MB RAM!
+ModelFinder will test up to 22 DNA models (sample size: 4 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: 10 threads for alignment length 3 will slow down analysis
+  1  GTR+F         4.159        11  30.318       294.318      23.567
+WARNING: 10 threads for alignment length 3 will slow down analysis
+  2  SYM           5.545        8   27.090       171.090      22.181
+WARNING: 10 threads for alignment length 3 will slow down analysis
+  3  TVM+F         4.159        10  28.318       248.318      22.181
+WARNING: 10 threads for alignment length 3 will slow down analysis
+  4  TVMe          5.545        7   25.090       137.090      20.794
+WARNING: 10 threads for alignment length 3 will slow down analysis
+  5  TIM3+F        4.159        9   26.318       206.318      20.794
+WARNING: 10 threads for alignment length 3 will slow down analysis
+  6  TIM3e         5.545        6   23.090       107.090      19.408
+WARNING: 10 threads for alignment length 3 will slow down analysis
+  7  TIM2+F        4.159        9   26.318       206.318      20.794
+WARNING: 10 threads for alignment length 3 will slow down analysis
+  8  TIM2e         5.545        6   23.090       107.090      19.408
+WARNING: 10 threads for alignment length 3 will slow down analysis
+  9  TIM+F         4.159        9   26.318       206.318      20.794
+WARNING: 10 threads for alignment length 3 will slow down analysis
+ 10  TIMe          5.545        6   23.090       107.090      19.408
+WARNING: 10 threads for alignment length 3 will slow down analysis
+ 11  TPM3u+F       4.159        8   24.318       168.318      19.408
+WARNING: 10 threads for alignment length 3 will slow down analysis
+ 12  TPM3          5.545        5   21.090       81.090       18.022
+WARNING: 10 threads for alignment length 3 will slow down analysis
+ 13  TPM2u+F       4.159        8   24.318       168.318      19.408
+WARNING: 10 threads for alignment length 3 will slow down analysis
+ 14  TPM2          5.545        5   21.090       81.090       18.022
+WARNING: 10 threads for alignment length 3 will slow down analysis
+ 15  K3Pu+F        4.159        8   24.318       168.318      19.408
+WARNING: 10 threads for alignment length 3 will slow down analysis
+ 16  K3P           5.545        5   21.090       81.090       18.022
+WARNING: 10 threads for alignment length 3 will slow down analysis
+ 17  TN+F          4.159        8   24.318       168.318      19.408
+WARNING: 10 threads for alignment length 3 will slow down analysis
+ 18  TNe           5.545        5   21.090       81.090       18.022
+WARNING: 10 threads for alignment length 3 will slow down analysis
+ 19  HKY+F         4.159        7   22.318       134.318      18.022
+WARNING: 10 threads for alignment length 3 will slow down analysis
+ 20  K2P           5.545        4   19.090       59.090       16.636
+WARNING: 10 threads for alignment length 3 will slow down analysis
+ 21  F81+F         4.159        6   20.318       104.318      16.636
+WARNING: 10 threads for alignment length 3 will slow down analysis
+ 22  JC            5.545        3   17.090       41.090       15.249
+Akaike Information Criterion:           JC
+Corrected Akaike Information Criterion: JC
+Bayesian Information Criterion:         JC
+Best-fit model: JC chosen according to BIC
+
+All model information printed to iqtree_output_africa/aln_segment_142409_to_142412.model.gz
+CPU time for ModelFinder: 0.070 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 0.007 seconds (0h:0m:0s)
+NOTE: State(s) T not present in alignment and thus removed from Markov process to prevent numerical problems
+NOTE: 1 states (see above) are not present and thus removed from Markov process to prevent numerical problems
+WARNING: 10 threads for alignment length 3 will slow down analysis
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -5.545
+Optimal log-likelihood: -5.545
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.000 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 4.27915e-05 secs using 619.3% CPU
+Computing ML distances took 0.000064 sec (of wall-clock time) 0.000289 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000864049 secs using 282.7% CPU
+Computing RapidNJ tree took 0.000898 sec (of wall-clock time) 0.003276 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5.545
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 1 parsimony trees... 0.000 second
+Current best score: -5.545
+
+Do NNI search on 1 best initial trees
+Finish initializing candidate tree set (1)
+Current best tree score: -5.545 / CPU time: 0.000
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -5.545
+Optimal log-likelihood: -5.545
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Parameters optimization took 1 rounds (0.000 sec)
+BEST SCORE FOUND : -5.545
+Total tree length: 0.000
+
+Total number of iterations: 2
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.134 sec (0h:0m:0s)
+Total wall-clock time used: 0.015 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                iqtree_output_africa/aln_segment_142409_to_142412.iqtree
+  Maximum-likelihood tree:       iqtree_output_africa/aln_segment_142409_to_142412.treefile
+  Likelihood distances:          iqtree_output_africa/aln_segment_142409_to_142412.mldist
+  Screen log file:               iqtree_output_africa/aln_segment_142409_to_142412.log
+
+Date and Time: Thu Oct 30 11:11:30 2025

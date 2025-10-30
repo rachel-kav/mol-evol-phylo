@@ -1,0 +1,237 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: iqtree_output_africa/aln_segment_122065_to_132236.fasta
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 163798
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 29 sequences with 10172 nucleotide sites
+Number of constant sites: 7453 (= 73.2698% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 7453 (= 73.2698% of all sites)
+Number of parsimony informative sites: 2587
+Number of distinct site patterns: 568
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: K3Pu+F+R2
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+K3Pu+F+R2        -26066.169   52256.338 -   0.0101   52257.111 -   0.0107   52704.436 +    0.972
+TIM+F+R2         -26065.479   52256.958 -  0.00741   52257.756 -  0.00774   52712.284 -   0.0192
+TVM+F+R2         -26061.744   52251.489 +    0.114   52252.312 +    0.118   52714.042 -  0.00798
+K3Pu+F+R3        -26064.784   52257.567 -  0.00546   52258.391 -  0.00563   52720.121 - 0.000382
+GTR+F+R2         -26061.602   52253.203 -   0.0484   52254.052 -   0.0493   52722.984 - 9.13e-05
+TIM+F+R3         -26064.065   52258.129 -  0.00412   52258.978 -   0.0042   52727.910 - 7.77e-06
+TVM+F+R3         -26060.136   52252.271 +   0.0772   52253.146 +   0.0775   52729.279 - 3.92e-06
+GTR+F+R3         -26056.884   52247.768 +    0.733   52248.670 +    0.727   52732.003 -    1e-06
+TPM3u+F+R2       -26089.815   52303.629 - 5.43e-13   52304.402 - 5.75e-13   52751.728 - 5.23e-11
+HKY+F+R2         -26096.881   52315.761 - 1.26e-15   52316.510 - 1.35e-15   52756.632 -  4.5e-12
+GTR+F+I+R2       -26073.879   52279.758 - 8.29e-08   52280.633 - 8.34e-08   52756.766 - 4.21e-12
+TIM3+F+R2        -26089.134   52304.268 - 3.95e-13   52305.066 - 4.12e-13   52759.594 - 1.02e-12
+TN+F+R2          -26096.154   52316.308 - 9.59e-16   52317.081 - 1.01e-15   52764.407 - 9.23e-14
+TPM2u+F+R2       -26096.880   52317.759 - 4.64e-16   52318.532 - 4.91e-16   52765.858 - 4.47e-14
+TPM3u+F+R3       -26089.298   52306.595 - 1.23e-13   52307.419 - 1.27e-13   52769.149 - 8.62e-15
+TIM2+F+R2        -26096.149   52318.297 - 3.55e-16   52319.095 - 3.71e-16   52773.623 - 9.21e-16
+HKY+F+R3         -26096.422   52318.843 -  2.7e-16   52319.641 - 2.82e-16   52774.169 - 7.01e-16
+TIM3+F+R3        -26088.558   52307.116 - 9.51e-14   52307.965 - 9.68e-14   52776.896 - 1.79e-16
+GTR+F+I+R3       -26075.376   52286.751 - 2.51e-09   52287.680 - 2.46e-09   52778.214 - 9.27e-17
+TN+F+R3          -26095.612   52319.224 - 2.23e-16   52320.047 -  2.3e-16   52781.777 - 1.56e-17
+TPM2u+F+R3       -26096.436   52320.872 - 9.79e-17   52321.696 - 1.01e-16   52783.426 - 6.85e-18
+TIM2+F+R3        -26095.726   52321.452 - 7.33e-17   52322.301 - 7.46e-17   52791.233 - 1.38e-19
+GTR+F+I+G4       -26230.520   52591.041 - 2.11e-75   52591.890 - 2.15e-75   53060.821 - 3.98e-78
+GTR+F+G4         -26243.376   52614.751 -  1.5e-80   52615.575 - 1.55e-80   53077.305 - 1.05e-81
+GTR+F+I          -26287.180   52702.359 - 1.42e-99   52703.183 - 1.46e-99   53164.913 - 9.92e-101
+F81+F+R2         -26343.912   52807.824 - 1.78e-122   52808.548 - 1.93e-122   53241.468 - 2.36e-117
+F81+F+R3         -26343.930   52811.861 - 2.37e-123   52812.633 - 2.5e-123   53259.959 - 2.28e-121
+GTR+F            -26490.994   53107.987 - 1.18e-187   53108.785 - 1.23e-187   53563.313 - 3.06e-187
+TVMe+R2          -27029.837   54181.673 -        0   54182.421 -        0   54622.544 -        0
+SYM+R2           -27029.004   54182.009 -        0   54182.782 -        0   54630.107 -        0
+TVMe+R3          -27029.417   54184.834 -        0   54185.632 -        0   54640.160 -        0
+SYM+R3           -27029.025   54186.049 -        0   54186.872 -        0   54648.602 -        0
+TPM2+R2          -27054.658   54227.315 -        0   54228.016 -        0   54653.732 -        0
+TIM2e+R2         -27053.551   54227.102 -        0   54227.826 -        0   54660.745 -        0
+TPM2+R3          -27053.956   54229.913 -        0   54230.661 -        0   54670.784 -        0
+TIM2e+R3         -27053.054   54230.108 -        0   54230.881 -        0   54678.206 -        0
+TPM3+R2          -27074.070   54266.141 -        0   54266.841 -        0   54692.557 -        0
+K2P+R2           -27080.630   54277.259 -        0   54277.936 -        0   54696.448 -        0
+TIM3e+R2         -27073.173   54266.345 -        0   54267.069 -        0   54699.989 -        0
+K3P+R2           -27079.174   54276.349 -        0   54277.049 -        0   54702.765 -        0
+TNe+R2           -27080.025   54278.051 -        0   54278.751 -        0   54704.467 -        0
+TPM3+R3          -27073.281   54268.562 -        0   54269.310 -        0   54709.433 -        0
+TIMe+R2          -27078.261   54276.522 -        0   54277.246 -        0   54710.166 -        0
+K2P+R3           -27079.837   54279.675 -        0   54280.399 -        0   54713.318 -        0
+TIM3e+R3         -27072.656   54269.312 -        0   54270.085 -        0   54717.411 -        0
+K3P+R3           -27077.955   54277.911 -        0   54278.659 -        0   54718.782 -        0
+TNe+R3           -27079.073   54280.145 -        0   54280.894 -        0   54721.016 -        0
+TIMe+R3          -27077.196   54278.393 -        0   54279.166 -        0   54726.491 -        0
+JC+R2            -27237.821   54589.643 -        0   54590.296 -        0   55001.604 -        0
+JC+R3            -27237.617   54593.234 -        0   54593.934 -        0   55019.651 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: K3Pu+F+R2
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 2.0208
+  A-T: 0.5785
+  C-G: 0.5785
+  C-T: 2.0208
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1538
+  pi(C) = 0.3489
+  pi(G) = 0.3433
+  pi(T) = 0.1539
+
+Rate matrix Q:
+
+  A    -1.398     0.431    0.8569      0.11
+  C      0.19   -0.8196    0.2453    0.3842
+  G     0.384    0.2494   -0.8235    0.1901
+  T    0.1099     0.871    0.4241    -1.405
+
+Model of rate heterogeneity: FreeRate with 2 categories
+Site proportion and rates:  (0.957,0.2302) (0.04302,18.12)
+
+ Category  Relative_rate  Proportion
+  1         0.2302         0.957
+  2         18.12          0.04302
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -26065.8433 (s.e. 245.7601)
+Unconstrained log-likelihood (without tree): -28212.2464
+Number of free parameters (#branches + #model parameters): 62
+Akaike information criterion (AIC) score: 52255.6866
+Corrected Akaike information criterion (AICc) score: 52256.4594
+Bayesian information criterion (BIC) score: 52703.7851
+
+Total tree length (sum of branch lengths): 1.3458
+Sum of internal branch lengths: 1.3041 (96.8984% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'HM585496_Human_herpesvirus_1' is drawn at root
+
++--HM585496_Human_herpesvirus_1
+|
+|           +--HM585497_Human_herpesvirus_1
+|        +--|
+|        |  |        +**HM585503_Human_herpesvirus_1
+|        |  |     +**|
+|        |  |     |  +**HM585505_Human_herpesvirus_1
+|        |  |  +--|
+|        |  |  |  +--HM585507_Human_herpesvirus_1
+|        |  +--|
+|        |     +--HM585510_Human_herpesvirus_1
+|     +--|
+|     |  |  +--HM585498_Human_herpesvirus_1
+|     |  +--|
+|     |     +**HM585511_Human_herpesvirus_1
+|  +--|
+|  |  |     +--HM585501_Human_herpesvirus_1
+|  |  |  +--|
+|  |  |  |  |                                                                               +--KR135299_Human_herpesvirus_2
+|  |  |  |  |                                                                            +--|
+|  |  |  |  |                                                                            |  +--KR135301_Human_herpesvirus_2
+|  |  |  |  |                                                                         +--|
+|  |  |  |  |                                                                         |  +--KR135304_Human_herpesvirus_2
+|  |  |  |  |                                                                      +--|
+|  |  |  |  |                                                                      |  +--KR135318_Human_herpesvirus_2
+|  |  |  |  |                                                                   +--|
+|  |  |  |  |                                                                   |  +--KR135305_Human_herpesvirus_2
+|  |  |  |  |                                                                +--|
+|  |  |  |  |                                                                |  +--KR135306_Human_herpesvirus_2
+|  |  |  |  |                                                             +--|
+|  |  |  |  |                                                             |  |     +--KR135300_Human_herpesvirus_2
+|  |  |  |  |                                                             |  |  +--|
+|  |  |  |  |                                                             |  |  |  |  +--KR135316_Human_herpesvirus_2
+|  |  |  |  |                                                             |  |  |  +--|
+|  |  |  |  |                                                             |  |  |     +--KR135317_Human_herpesvirus_2
+|  |  |  |  |                                                             |  +--|
+|  |  |  |  |                                                             |     +--KR135315_Human_herpesvirus_2
+|  |  |  |  |                                                          +--|
+|  |  |  |  |                                                          |  |  +--KR135303_Human_herpesvirus_2
+|  |  |  |  |                                                          |  +--|
+|  |  |  |  |                                                          |     |  +--KR135307_Human_herpesvirus_2
+|  |  |  |  |                                                          |     +--|
+|  |  |  |  |                                                          |        +--KR135319_Human_herpesvirus_2
+|  |  |  |  +----------------------------------------------------------|
+|  |  |  |                                                             +--KR135302_Human_herpesvirus_2
+|  |  +--|
+|  |     +--HM585502_Human_herpesvirus_1
++--|
+|  +--HM585509_Human_herpesvirus_1
+|
+|        +**HM585499_Human_herpesvirus_1
+|     +**|
+|     |  +**HM585500_Human_herpesvirus_1
+|  +--|
+|  |  +--HM585506_Human_herpesvirus_1
++**|
+   +--HM585504_Human_herpesvirus_1
+
+Tree in newick format:
+
+(HM585496_Human_herpesvirus_1:0.0002014188,((((HM585497_Human_herpesvirus_1:0.0045740294,(((HM585503_Human_herpesvirus_1:0.0000010162,HM585505_Human_herpesvirus_1:0.0000010162):0.0000010162,HM585507_Human_herpesvirus_1:0.0001018384):0.0036560924,HM585510_Human_herpesvirus_1:0.0022691126):0.0007912145):0.0018797809,(HM585498_Human_herpesvirus_1:0.0001023853,HM585511_Human_herpesvirus_1:0.0000010162):0.0049436202):0.0025586047,((HM585501_Human_herpesvirus_1:0.0014298783,((((((((KR135299_Human_herpesvirus_2:0.0012374274,KR135301_Human_herpesvirus_2:0.0008202044):0.0011580857,KR135304_Human_herpesvirus_2:0.0011510859):0.0004332893,KR135318_Human_herpesvirus_2:0.0018301953):0.0001287281,KR135305_Human_herpesvirus_2:0.0032581167):0.0002841364,KR135306_Human_herpesvirus_2:0.0008235480):0.0006562812,((KR135300_Human_herpesvirus_2:0.0003007121,(KR135316_Human_herpesvirus_2:0.0007057223,KR135317_Human_herpesvirus_2:0.0012954394):0.0004422521):0.0001812922,KR135315_Human_herpesvirus_2:0.0007655314):0.0001526338):0.0004031884,(KR135303_Human_herpesvirus_2:0.0013946637,(KR135307_Human_herpesvirus_2:0.0008792784,KR135319_Human_herpesvirus_2:0.0001166966):0.0008655316):0.0010890597):0.0021439363,KR135302_Human_herpesvirus_2:0.0015527254):1.2709066168):0.0007101036,HM585502_Human_herpesvirus_1:0.0027302369):0.0010973735):0.0030427515,HM585509_Human_herpesvirus_1:0.0137904254):0.0063329786,(((HM585499_Human_herpesvirus_1:0.0000010162,HM585500_Human_herpesvirus_1:0.0000010162):0.0000010162,HM585506_Human_herpesvirus_1:0.0002014174):0.0002019254,HM585504_Human_herpesvirus_1:0.0002015254):0.0000010162);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t iqtree_output_africa/aln_segment_122065_to_132236.treefile -m "K3Pu{2.02076,0.578514}+F{0.153832,0.34894,0.343295,0.153933}+R2{0.956983,0.230237,0.0430174,18.1245}" --length 10172
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s iqtree_output_africa/aln_segment_122065_to_132236.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s iqtree_output_africa/aln_segment_122065_to_132236.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct 30 11:11:27 2025
+Total CPU time used: 17.1623 seconds (0h:0m:17s)
+Total wall-clock time used: 1.75566 seconds (0h:0m:1s)
+
