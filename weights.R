@@ -35,13 +35,23 @@ mast_summary_sort <- read.csv("mast_africa_output/mast_weights_summary_sort.csv"
 
 data <- read.table("output_mast_repeats/bic_summary.tsv", header = TRUE, sep = "\t")
 
-data_sorted <- data %>%
-  arrange(desc(bic))
+#data_sorted <- data %>%
+#  arrange(desc(bic))
 
-plot <- ggplot(mast_summary_sort, aes(x = tree_name, y = weight)) +
-  geom_bar(stat = "identity") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+data$model_num <- as.numeric(sub("mast_model_", "", data$model))
+data_sorted <- data[order(data$model_num), ]
+
+BIC_table <- data_sorted %>% mutate("BIC_transformed" = bic/10000)
+
+bic_plot <- ggplot(BIC_table, aes(x = factor(model_num), y = BIC_transformed)) +
+  geom_point(colour = "black", size = 3) +
+  theme_minimal() +
+  labs(x = "Number of Trees in MAST Model",
+       y = "BIC (x10e5)")
 #order and add BIC curve
+
+ggsave("figures/bic_plot.png", bic_plot, width = 10, height = 6)
+
 ggsave("figures/mast_weights_plot.png", plot, width = 10, height = 6)
 
 
