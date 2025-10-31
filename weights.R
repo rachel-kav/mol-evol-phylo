@@ -29,12 +29,19 @@ mast_summary_sort <- mast_summary %>%
 
 write.csv(mast_summary_sort, "mast_africa_output/mast_weights_summary_sort.csv", row.names = FALSE)
 
-p <- ggplot(mast_summary_sort, aes(x = tree_name, y = weight)) +
-        geom_col(position = "dodge") +
-        xlab("Tree") +
-        ylab("Weight") +
-        theme_bw()
+mast_summary_sort <- read.csv("mast_africa_output/mast_weights_summary_sort.csv")
 
-ggplot(mast_summary, aes(x = tree_name, y = weight)) +
+#BIC values
+
+data <- read.table("output_mast_repeats/bic_summary.tsv", header = TRUE, sep = "\t")
+
+data_sorted <- data %>%
+  arrange(desc(bic))
+
+plot <- ggplot(mast_summary_sort, aes(x = tree_name, y = weight)) +
   geom_bar(stat = "identity") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+#order and add BIC curve
+ggsave("figures/mast_weights_plot.png", plot, width = 10, height = 6)
+
+

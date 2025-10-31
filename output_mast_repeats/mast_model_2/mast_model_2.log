@@ -1,0 +1,155 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    ku-01 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree2 -s trim_genome_africa.fasta -m GTR+FO+R2+T -te tree_subsets/modeltrees_final_2.newick --prefix output_mast_repeats/mast_model_2/mast_model_2 -nt 4 -wslmr -redo
+Seed:    941158 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct 30 15:20:26 2025
+Kernel:  AVX+FMA - 4 threads (64 CPU cores detected)
+
+Reading alignment file trim_genome_africa.fasta ... Fasta format detected
+Reading fasta file: done in 0.0359248 secs using 93.19% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 29 sequences with 142412 columns, 3564 distinct patterns
+28695 parsimony-informative, 1511 singleton sites, 112206 constant sites
+                              Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.36678e-05 secs using 99.29% CPU
+   1  HM585496_Human_herpesvirus_1    0.67%    failed      0.00%
+   2  HM585497_Human_herpesvirus_1    0.65%    failed      0.00%
+   3  HM585498_Human_herpesvirus_1    0.68%    failed      0.00%
+   4  HM585499_Human_herpesvirus_1    0.67%    failed      0.00%
+   5  HM585500_Human_herpesvirus_1    0.67%    failed      0.00%
+   6  HM585501_Human_herpesvirus_1    0.63%    failed      0.00%
+   7  HM585502_Human_herpesvirus_1    0.66%    failed      0.00%
+   8  HM585503_Human_herpesvirus_1    0.69%    failed      0.00%
+   9  HM585504_Human_herpesvirus_1    0.59%    failed      0.00%
+  10  HM585505_Human_herpesvirus_1    0.67%    failed      0.00%
+  11  HM585506_Human_herpesvirus_1    0.67%    failed      0.00%
+  12  HM585507_Human_herpesvirus_1    1.56%    failed      0.00%
+  13  HM585509_Human_herpesvirus_1    0.42%    failed      0.00%
+  14  HM585510_Human_herpesvirus_1    0.45%    failed      0.00%
+  15  HM585511_Human_herpesvirus_1    0.50%    failed      0.00%
+  16  KR135299_Human_herpesvirus_2    3.19%    failed      0.00%
+  17  KR135300_Human_herpesvirus_2    3.19%    failed      0.00%
+  18  KR135301_Human_herpesvirus_2    3.33%    failed      0.00%
+  19  KR135302_Human_herpesvirus_2    3.10%    failed      0.00%
+  20  KR135303_Human_herpesvirus_2    3.44%    failed      0.00%
+  21  KR135304_Human_herpesvirus_2    3.30%    failed      0.00%
+  22  KR135305_Human_herpesvirus_2    3.43%    failed      0.00%
+  23  KR135306_Human_herpesvirus_2    3.39%    failed      0.00%
+  24  KR135307_Human_herpesvirus_2    3.14%    failed      0.00%
+  25  KR135315_Human_herpesvirus_2    3.20%    failed      0.00%
+  26  KR135316_Human_herpesvirus_2    3.19%    failed      0.00%
+  27  KR135317_Human_herpesvirus_2    3.37%    failed      0.00%
+  28  KR135318_Human_herpesvirus_2    3.12%    failed      0.00%
+  29  KR135319_Human_herpesvirus_2    3.10%    failed      0.00%
+****  TOTAL                           1.92%  29 sequences failed composition chi2 test (p-value<5%; df=3)
+Tree-mixture model
+Number of input trees: 2
+Minimum branch length is set to 0.0000010
+
+
+
+Linked substitution model:
+   GTR+FO
+
+Linked RHS model:
+   R2
+
+
+NOTE: 13 MB RAM (0 GB) is required!
+According to the parsimony scores along the sites, the tree weights are initialized to:
+0.5869336,0.4130664
+Estimate model parameters (epsilon = 0.00100)
+1. Initial log-likelihood: -345326.68469
+2. Current log-likelihood: -338966.12095
+3. Current log-likelihood: -337529.50177
+4. Current log-likelihood: -336458.88737
+5. Current log-likelihood: -336065.19818
+6. Current log-likelihood: -335875.01053
+7. Current log-likelihood: -335828.83090
+8. Current log-likelihood: -335810.50041
+9. Current log-likelihood: -335798.52235
+10. Current log-likelihood: -335788.40255
+11. Current log-likelihood: -335779.05765
+12. Current log-likelihood: -335769.95250
+13. Current log-likelihood: -335761.03080
+14. Current log-likelihood: -335752.34341
+15. Current log-likelihood: -335743.86387
+16. Current log-likelihood: -335735.60361
+17. Current log-likelihood: -335727.60969
+18. Current log-likelihood: -335719.90627
+19. Current log-likelihood: -335712.59134
+20. Current log-likelihood: -335705.77555
+21. Current log-likelihood: -335699.17243
+22. Current log-likelihood: -335692.75483
+23. Current log-likelihood: -335687.05560
+24. Current log-likelihood: -335681.66363
+25. Current log-likelihood: -335676.53651
+26. Current log-likelihood: -335672.09468
+27. Current log-likelihood: -335667.95571
+28. Current log-likelihood: -335664.17324
+29. Current log-likelihood: -335660.86490
+30. Current log-likelihood: -335657.93270
+31. Current log-likelihood: -335655.41013
+32. Current log-likelihood: -335653.07889
+33. Current log-likelihood: -335651.09491
+34. Current log-likelihood: -335649.47233
+35. Current log-likelihood: -335647.99488
+36. Current log-likelihood: -335646.81806
+37. Current log-likelihood: -335645.86445
+38. Current log-likelihood: -335645.05310
+39. Current log-likelihood: -335644.28106
+40. Current log-likelihood: -335643.71673
+41. Current log-likelihood: -335643.28270
+42. Current log-likelihood: -335642.91902
+43. Current log-likelihood: -335642.61633
+44. Current log-likelihood: -335642.37106
+45. Current log-likelihood: -335642.19846
+46. Current log-likelihood: -335642.03747
+47. Current log-likelihood: -335641.92825
+48. Current log-likelihood: -335641.82118
+49. Current log-likelihood: -335641.75229
+50. Current log-likelihood: -335641.67661
+51. Current log-likelihood: -335641.63348
+52. Current log-likelihood: -335641.59976
+53. Current log-likelihood: -335641.57473
+54. Current log-likelihood: -335641.55588
+55. Current log-likelihood: -335641.54059
+56. Current log-likelihood: -335641.50718
+57. Current log-likelihood: -335641.49536
+58. Current log-likelihood: -335641.48585
+59. Current log-likelihood: -335641.47858
+60. Current log-likelihood: -335641.45717
+61. Current log-likelihood: -335641.45124
+62. Current log-likelihood: -335641.32267
+63. Current log-likelihood: -335641.31386
+64. Current log-likelihood: -335641.30731
+65. Current log-likelihood: -335641.30260
+66. Current log-likelihood: -335641.28667
+67. Current log-likelihood: -335641.28419
+68. Current log-likelihood: -335641.28232
+69. Current log-likelihood: -335641.28091
+70. Current log-likelihood: -335641.27977
+71. Current log-likelihood: -335641.27897
+Final estimation on weights:
+0.68851,0.31149
+Wrote distance file to... 
+BEST SCORE FOUND : -335641.27897
+Site log-likelihoods per category printed to output_mast_repeats/mast_model_2/mast_model_2.sitelh
+Total tree lengths: 1.82991 9.62412
+
+Total number of iterations: 69
+CPU time used for tree search: 0.00001 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.00001 sec (0h:0m:0s)
+Total CPU time used: 419.42379 sec (0h:6m:59s)
+Total wall-clock time used: 107.87154 sec (0h:1m:47s)
+
+Analysis results written to: 
+  IQ-TREE report:                output_mast_repeats/mast_model_2/mast_model_2.iqtree
+  Maximum-likelihood tree:       output_mast_repeats/mast_model_2/mast_model_2.treefile
+  Site log-likelihoods:          output_mast_repeats/mast_model_2/mast_model_2.sitelh
+  Screen log file:               output_mast_repeats/mast_model_2/mast_model_2.log
+
+Date and Time: Thu Oct 30 15:22:14 2025
