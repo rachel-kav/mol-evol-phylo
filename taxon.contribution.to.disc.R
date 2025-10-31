@@ -196,8 +196,8 @@ hiv1_taxa <- names(sort(disc_metrics, decreasing = TRUE))[grepl("Human_herpesvir
 hiv2_taxa <- names(sort(disc_metrics, decreasing = TRUE))[grepl("Human_herpesvirus_2", names(sort(disc_metrics, decreasing = TRUE)))]
 
 # Generate color palettes
-blue_palette <- colorRampPalette(c("#000080", "#87CEEB"))(length(hiv1_taxa))
-red_palette <- colorRampPalette(c("#8B0000", "#FFB6C1"))(length(hiv2_taxa))
+blue_palette <- rep("blue", length(hiv1_taxa))
+red_palette <- rep("red", length(hiv2_taxa))
 
 # Create named color vectors for consistency
 hiv1_colors <- setNames(blue_palette, hiv1_taxa)
@@ -241,6 +241,9 @@ cat("Multiplot saved as 'discordanceContributionPlots/three_tree_combinations.pd
 
 
 ###
+
+
+
 
 
 
