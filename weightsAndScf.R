@@ -23,38 +23,39 @@ mast_weights <- read.csv("mast_africa_output/mast_weights_summary_sort.csv")
 # Extract segment names from the file paths in results
 results$segment_name <- gsub(".*/(.*?)_scf\\.cf\\.stat$", "\\1", results$file)
 
+# Extract the starting position from each interval and sort
+results$start_pos <- as.numeric(gsub(".*_(\\d+)_to_\\d+", "\\1", results$segment_name))
+results <- results[order(results$start_pos), ]
+
+# Assign sequential tree numbers based on sorted order
+results$tree_nr <- paste0("tree_", seq_len(nrow(results)))
+
 # Remove .treefile extension from mast_weights tree names for matching
 mast_weights$tree_name_clean <- gsub("\\.treefile$", "", mast_weights$tree_name)
 
 # Merge the dataframes based on matching segment names
-mast_weights_with_scf <- merge(mast_weights, results[, c("segment_name", "mean_sCF")], 
+mast_weights_with_scf <- merge(mast_weights, results[, c("segment_name", "mean_sCF", "tree_nr")], 
                                by.x = "tree_name_clean", by.y = "segment_name", 
                                all.x = TRUE)
 
 # Display the merged dataframe
 print(mast_weights_with_scf)
 
-# Keep original order from results file (match the order of results$segment_name)
-mast_weights_with_scf <- mast_weights_with_scf[match(results$segment_name, mast_weights_with_scf$tree_name_clean), ]
+# Sort by weight in descending order
+mast_weights_with_scf <- mast_weights_with_scf[order(mast_weights_with_scf$weight, decreasing = TRUE), ]
 
 # Remove the aln_segment_142409_to_142412 entry
 mast_weights_with_scf <- mast_weights_with_scf[mast_weights_with_scf$tree_name_clean != "aln_segment_142409_to_142412", ]
 
-# Remove any NA rows that might have been created
-mast_weights_with_scf <- mast_weights_with_scf[!is.na(mast_weights_with_scf$tree_name_clean), ]
-
-# Create simple tree labels (Tree 1, Tree 2, etc.) based on original order
-tree_labels <- paste("Tree", 1:nrow(mast_weights_with_scf))
-
 # Save plot to PNG
 png("MAST_weights_and_sCF_plot.png", width = 1200, height = 800, res = 100)
 
-# Increase bottom margin to accommodate labels
-par(mar = c(8, 4, 4, 4))
+# Increase bottom margin to accommodate rotated labels
+par(mar = c(18, 4, 4, 4))
 
 # Create the barplot of weights (left y-axis)
 bp <- barplot(mast_weights_with_scf$weight, 
-              names.arg = tree_labels, 
+              names.arg = mast_weights_with_scf$tree_nr, 
               main = "MAST Weights and sCF Values", 
               ylab = "MAST Weight",
               las = 2,
